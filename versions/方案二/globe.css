@@ -1,4 +1,7 @@
-.creator-world{height:480px}
+.hero{--globe-h:480px}
+.creator-world,.hero .creator-world{top:auto;bottom:0;height:var(--globe-h)}
+.hero .hero-scroll{top:auto;bottom:calc(var(--globe-h) + 14px)}
+@media(max-width:650px){.hero{--globe-h:340px}}
 .creator-world>svg{display:none}
 .globe-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .globe-avatars{position:absolute;inset:0}
@@ -6,5 +9,5 @@
 .globe-avatar>span{position:absolute;left:-18px;top:-18px;width:36px;height:36px;border:3px solid #fff;border-radius:50%;overflow:hidden;box-shadow:0 4px 12px #5b6b8a33;transform:scale(0);opacity:0;transition:transform .45s cubic-bezier(.55,0,.75,.2),opacity .3s ease-in .15s}
 .globe-avatar.is-visible>span{transform:scale(1);opacity:1;transition:transform .6s cubic-bezier(.34,1.56,.64,1),opacity .25s ease-out}
 .globe-avatar img{width:100%;height:100%;object-fit:cover;object-position:center 25%;display:block}
-@media(max-width:650px){.creator-world{height:340px}.globe-avatar>span{border-width:2px}}
+@media(max-width:650px){.globe-avatar>span{border-width:2px}}
 @media(prefers-reduced-motion:reduce){.globe-avatar>span{transition:none}}
