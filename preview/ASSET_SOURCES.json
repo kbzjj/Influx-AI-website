@@ -1,0 +1,48 @@
+{
+  "license": "https://unsplash.com/license",
+  "usage": "Decorative demo portraits only, no endorsement or actual creator relationship implied",
+  "portraits": [
+    {
+      "name": "portrait-1",
+      "page": "https://unsplash.com/photos/portrait-photograph-of-woman-eCmt0NHWbhY",
+      "image": "https://images.unsplash.com/photo-1578933301026-3e5e901126dc?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 84481
+    },
+    {
+      "name": "portrait-2",
+      "page": "https://unsplash.com/photos/woman-looking-at-her-left-Hp-3N5Gl1Ak",
+      "image": "https://images.unsplash.com/photo-1577746838851-816a43ca8733?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 78650
+    },
+    {
+      "name": "portrait-3",
+      "page": "https://unsplash.com/photos/a-smiling-asian-woman-with-dark-hair-5V6takmtNUM",
+      "image": "https://images.unsplash.com/photo-1758600587683-d86675a2f6e9?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 31960
+    },
+    {
+      "name": "portrait-4",
+      "page": "https://unsplash.com/photos/woman-taking-photo-tIgSA99JOgk",
+      "image": "https://images.unsplash.com/photo-1536577545246-1303b70d3176?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 118075
+    },
+    {
+      "name": "portrait-5",
+      "page": "https://unsplash.com/photos/vBBCdkYa_n0",
+      "image": "https://images.unsplash.com/photo-1604006744464-f067ff571b76?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 57794
+    },
+    {
+      "name": "portrait-6",
+      "page": "https://unsplash.com/s/photos/handsome-black-man",
+      "image": "https://images.unsplash.com/photo-1509305717900-84f40e786d82?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 87788
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+/* Scheme two subpages: the same light Veo-inspired visual language as the homepage. */
+body.subpage{background:#fff;padding-top:0}
+.subpage .primary-links a[aria-current=page]{color:#111;font-weight:600}
+.subpage .pricing-main,.subpage .free-main{position:relative;width:calc(100% - 80px);max-width:1200px;padding:150px 0 95px;min-height:0}
+.subpage .pricing-heading{max-width:920px;text-align:center;position:relative;isolation:isolate}
+.subpage .pricing-heading:before{content:'';position:absolute;z-index:-1;pointer-events:none;inset:-50px -100px -70px;background:radial-gradient(ellipse at 30% 40%,#c846e50a,transparent 55%),radial-gradient(ellipse at 70% 40%,#0067ff0a,transparent 55%)}
+.subpage .pricing-heading .pill{font-size:12px;padding:5px 13px;margin:0 auto}
+.subpage .pricing-heading h1,html[lang=zh-CN] .subpage .pricing-heading h1{font-family:'Space Grotesk','Noto Sans SC',sans-serif;font-size:64px;line-height:1.12;font-weight:700;letter-spacing:-2.5px;margin:25px 0 24px;background:var(--veo-gradient);background-clip:text;-webkit-background-clip:text;color:transparent;text-wrap:balance}
+html[lang=zh-CN] .subpage .pricing-heading h1{font-size:58px;line-height:1.25;letter-spacing:-1.5px}
+.subpage .pricing-heading>p{font-size:18px;line-height:1.65;color:#666;max-width:680px;margin:0 auto}
+.subpage .button{border:1px solid #dedede;color:#111;background:#fff;box-shadow:none;font-size:13px;padding:13px 22px}
+.subpage .button:hover{background:#f2f2f2;transform:translateY(-2px);box-shadow:none}
+.subpage .button.primary{color:#fff;background:#111;border-color:#111}
+.subpage .button.primary:hover{background:#333}
+.subpage .text-link{color:#111;font-size:14px;font-weight:500}
+.subpage .text-link:hover{text-decoration:underline;text-underline-offset:4px}
+.subpage .pricing-switch{width:264px;margin:32px auto 52px;padding:5px;background:#f6f6f6;border:1px solid #e8e8e8;gap:5px}
+.subpage .pricing-switch button{font-size:14px;color:#777;background:transparent;padding:12px 18px}
+.subpage .pricing-switch button[aria-selected=true]{background:#111;color:#fff}
+.subpage .plans-topline{margin-bottom:24px;align-items:center}
+.subpage .plans-topline h2{font-size:23px;font-weight:600;line-height:1.4;letter-spacing:-.6px;color:#111}
+.subpage .plans-topline>span{font-size:12px;color:#777}
+.subpage .tool-plans.pricing-panel{border:0;background:none;overflow:visible}
+.subpage .plan-grid{gap:16px;align-items:stretch}
+.subpage .plan-card{position:relative;padding:28px 23px 32px;border:1px solid #e5e5e5;border-radius:22px;background:#fff;transition:transform .25s,border-color .25s;min-height:480px}
+.subpage .plan-card:hover{border-color:#bbb;transform:translateY(-4px)}
+.subpage .plan-plus{border-color:#c3c8f8;background:linear-gradient(145deg,#fbf7ff,#f4f8ff 65%,#fff);box-shadow:0 10px 35px #6366f10a}
+.subpage .plan-plus:hover{border-color:#818cf8}
+.subpage .plan-name{font-family:'Space Grotesk','Noto Sans SC',sans-serif;color:#111;font-size:24px;line-height:1.3;font-weight:600;letter-spacing:-.7px}
+.subpage .plan-name>span{font-family:'Inter','Noto Sans SC',sans-serif;font-size:8px;font-weight:500;letter-spacing:.1px;border-radius:99px;background:#fff;border:1px solid #dde0fa;color:#6366f1;padding:5px 7px}
+.subpage .plan-card>p{font-size:13px;line-height:1.65;color:#666;min-height:44px;margin-top:15px}
+.subpage .plan-price{font-family:'Space Grotesk','Noto Sans SC',sans-serif;font-size:50px;line-height:1.2;font-weight:500;letter-spacing:-2.2px;color:#111;margin-top:30px;height:60px;gap:7px}
+.subpage .plan-price>span{font-family:'Inter','Noto Sans SC',sans-serif;font-size:10px;line-height:1.5;letter-spacing:0;color:#666;font-weight:400}
+.subpage .plan-card>small{color:#666;font-size:11px;line-height:1.6;min-height:36px;margin-top:6px}
+.subpage .plan-card .button{font-size:12px;min-height:44px;margin-top:18px;padding:12px 8px}
+.subpage .plan-card .button:disabled{background:#f1f1f1;border-color:#ebebeb;color:#888;transform:none;cursor:not-allowed}
+.subpage .plan-divider{background:#e6e6e6;margin:27px 0 24px}
+.subpage .plan-card h3{font-family:'Inter','Noto Sans SC',sans-serif;color:#222;font-size:12px;font-weight:600;line-height:1.5}
+.subpage .plan-card h3+p{color:#777;font-size:12px;min-height:0;margin-top:12px;line-height:1.7}
+.subpage .plan-feature-list{gap:16px;margin-top:18px}
+.subpage .plan-feature-list li{color:#555;font-size:12px;line-height:1.6;gap:9px}
+.subpage .plan-feature-list li:before{color:#6366f1;font-size:12px}
+.subpage .plan-unavailable{background:#fafafa}
+.subpage .plan-unavailable .plan-name{color:#777}
+.subpage .plan-pending{color:#aaa}
+.subpage .plus-boundary{background:#f7f8fa;border:1px solid #edeef1;border-radius:22px;padding:28px 30px;margin-top:28px;grid-template-columns:1fr 1fr;gap:35px}
+.subpage .plus-boundary h3{font-size:17px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px;letter-spacing:-.3px}
+.subpage .plus-boundary p{font-size:12px;color:#777;line-height:1.7}
+.subpage .plus-boundary ul{gap:17px 25px;align-content:center}
+.subpage .plus-boundary li{font-size:12px;color:#666;line-height:1.5}
+.subpage .plus-boundary li:before{color:#999}
+.subpage .plan-footnote,.subpage .pricing-footnote{font-size:12px;line-height:1.8;color:#777;margin-top:26px}
+.subpage .pricing-footnote{text-align:center;margin-top:38px}
+.subpage .pricing-contact{margin:15px auto 0;width:max-content;padding-bottom:5px;border-bottom:1px solid #ccc;font-size:14px}
+.subpage #pricing-managed{border:1px solid #e7e7e7;border-radius:24px;background:#fff;grid-template-columns:1.05fr 1fr;margin-top:0}
+.subpage .pricing-card{padding:48px;border-color:#e8e8e8}
+.subpage .pricing-card .pill{margin-bottom:25px}
+.subpage .pricing-card h2{font-size:38px;font-weight:700;line-height:1.2;color:#111;letter-spacing:-1px;margin-bottom:23px}
+.subpage .pricing-card>p{font-size:15px;line-height:1.7;color:#666;max-width:420px}
+.subpage .quote-label{font-family:'Space Grotesk','Noto Sans SC',sans-serif;color:#111;font-size:26px;font-weight:600;line-height:1.4;letter-spacing:-.6px;margin-top:35px}
+.subpage .pricing-detail{font-size:12px;color:#777;line-height:1.7;margin-top:12px}
+.subpage .pricing-card .button{font-size:14px;margin-top:28px}
+.subpage .pricing-card .text-link{font-size:13px;margin-top:22px}
+.subpage .pricing-scope{padding:50px;background:#fafafa}
+.subpage .pricing-scope h3{font-size:20px;font-weight:600;color:#222;margin-bottom:30px;letter-spacing:-.4px}
+.subpage .pricing-scope ul{gap:25px}
+.subpage .pricing-scope li{font-size:15px;color:#555;line-height:1.6}
+.subpage .pricing-scope li:before{color:#6366f1;font-size:14px}
+.subpage .pricing-scope>p{font-size:13px;line-height:1.8;color:#777;max-width:380px;margin-top:36px}
+.subpage .quote-form-wrap{padding:48px;gap:70px;border-color:#e8e8e8;background:#f7f9fb;grid-template-columns:.8fr 1.2fr}
+.subpage .quote-form-wrap .pill{margin-bottom:24px}
+.subpage .quote-form-wrap h3{font-size:32px;font-weight:700;line-height:1.3;color:#111;margin-bottom:18px;letter-spacing:-.8px}
+.subpage .quote-form-wrap>div>p{font-size:14px;line-height:1.8;color:#777;max-width:330px}
+.subpage .quote-form-wrap .button{justify-self:start}
+.subpage input,.subpage textarea,.subpage select{font-size:14px;border-color:#dedfe2;background:#fff;border-radius:10px;padding:14px;color:#222}
+.subpage .form-disclosure,.subpage .inquiry-status{font-size:11px;line-height:1.7;color:#777}
+.subpage .free-main{max-width:1160px}
+.subpage .calculator-panel{position:relative;grid-template-columns:.9fr 1.1fr;gap:65px;padding:46px;border:1px solid #e7ebef;border-radius:26px;background:radial-gradient(ellipse at 0 0,#eaf2ff88,transparent 60%),#f7f9fb;margin-top:55px;align-items:center}
+.subpage .calculator-copy{padding:6px 0 6px 4px}
+.subpage .calculator-copy h2{font-size:38px;font-weight:700;line-height:1.2;letter-spacing:-1px;color:#111;max-width:400px}
+.subpage .calculator-copy>p{font-size:15px;line-height:1.8;color:#666;margin-top:24px;max-width:380px}
+.subpage .calculator-copy .calculator-formula{font-size:12px;line-height:1.8;letter-spacing:-.1px;color:#777;border:1px solid #e3e7ec;border-radius:12px;background:#ffffffa8;padding:15px 17px;margin-top:28px;max-width:390px}
+.subpage .calculator-panel form{display:grid;gap:15px;background:#fff;border:1px solid #e4e6ea;border-radius:20px;padding:30px;box-shadow:0 8px 25px #00000003;min-width:0}
+.subpage .calculator-panel label{font-size:12px;font-weight:500;color:#444}
+.subpage .calculator-panel .form-row{gap:16px}
+.subpage .calculator-panel input{width:100%;min-width:0}
+.subpage .calculator-panel .button{font-size:13px;justify-self:stretch;padding:10px 10px 10px 20px;justify-content:space-between;margin-top:5px}
+.subpage .calculator-panel .button:after{content:'→';display:grid;place-items:center;flex:none;width:29px;height:29px;background:#fff;color:#111;border-radius:50%;font-size:17px}
+.subpage .calculator-result{display:flex;align-items:center;justify-content:space-between;gap:15px;background:#f4f6ff;border:1px solid #e6eafb;border-radius:14px;padding:20px;margin-top:5px}
+.subpage .calculator-result>span{font-size:12px;line-height:1.6;color:#777;max-width:130px}
+.subpage .calculator-result output{font-family:'Space Grotesk','Noto Sans SC',sans-serif;font-size:54px;font-weight:500;line-height:1.2;letter-spacing:-2px;background:var(--veo-gradient);background-clip:text;-webkit-background-clip:text;color:transparent}
+.subpage .calculator-panel .form-disclosure{font-size:11px;line-height:1.8;margin:0;color:#888}
+.subpage dialog select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23666' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:44px}
+.subpage dialog .button{margin-top:6px}
+@media(prefers-reduced-motion:reduce){.subpage .plan-card,.subpage .button{transition:none}.subpage .plan-card:hover,.subpage .button:hover{transform:none}}
+/* Keep the capsule identical before and after scrolling, despite inherited legacy rules. */
+.subpage header,.subpage header.is-scrolled{width:680px;max-width:calc(100% - 48px);height:50px;padding:8px 20px;border:0;background:#fffffff2}
+.subpage header .brand-logo,.subpage header.is-scrolled .brand-logo{width:97px;height:auto}
+.subpage .primary-links{position:static;transform:none;left:auto;top:auto;margin:0;gap:26px}
+.subpage .primary-links>a{font-size:12px}
+.subpage .language-switch,.subpage header.is-scrolled .language-switch{border:0;background:#f4f4f4;box-shadow:none;padding:2px}
+.subpage .language-switch button{font-size:9px;min-width:25px;padding:4px}
+.subpage .login-button{font-size:11px;padding:8px 17px}
+/* Put the free tool's result comfortably within the desktop working area. */
+.subpage .free-main{padding-top:130px}
+.subpage .free-main .pricing-heading h1{font-size:56px;margin:20px 0}
+html[lang=zh-CN] .subpage .free-main .pricing-heading h1{font-size:52px;line-height:1.2}
+.subpage .calculator-panel{margin-top:45px;padding:38px}
+.subpage .calculator-panel form{padding:26px}

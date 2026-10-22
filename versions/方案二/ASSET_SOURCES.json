@@ -1,0 +1,54 @@
+{
+  "license": "https://unsplash.com/license",
+  "usage": "Decorative demo portraits only, no endorsement or actual creator relationship implied",
+  "portraits": [
+    {
+      "name": "portrait-1",
+      "page": "https://unsplash.com/photos/portrait-photograph-of-woman-eCmt0NHWbhY",
+      "image": "https://images.unsplash.com/photo-1578933301026-3e5e901126dc?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 84481
+    },
+    {
+      "name": "portrait-2",
+      "page": "https://unsplash.com/photos/woman-looking-at-her-left-Hp-3N5Gl1Ak",
+      "image": "https://images.unsplash.com/photo-1577746838851-816a43ca8733?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 78650
+    },
+    {
+      "name": "portrait-3",
+      "page": "https://unsplash.com/photos/a-smiling-asian-woman-with-dark-hair-5V6takmtNUM",
+      "image": "https://images.unsplash.com/photo-1758600587683-d86675a2f6e9?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 31960
+    },
+    {
+      "name": "portrait-4",
+      "page": "https://unsplash.com/photos/woman-taking-photo-tIgSA99JOgk",
+      "image": "https://images.unsplash.com/photo-1536577545246-1303b70d3176?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 118075
+    },
+    {
+      "name": "portrait-5",
+      "page": "https://unsplash.com/photos/vBBCdkYa_n0",
+      "image": "https://images.unsplash.com/photo-1604006744464-f067ff571b76?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 57794
+    },
+    {
+      "name": "portrait-6",
+      "page": "https://unsplash.com/s/photos/handsome-black-man",
+      "image": "https://images.unsplash.com/photo-1509305717900-84f40e786d82?auto=format&fit=crop&w=600&q=85",
+      "ok": true,
+      "bytes": 87788
+    }
+  ],
+  "generated_category_atlas": {
+    "file": "assets/creator-categories-atlas.png",
+    "source": "OpenAI Imagegen built-in tool",
+    "usage": "Illustrative category scenes only; no actual creator, partnership or product coverage claim",
+    "prompt": "Use case: ads-marketing. Asset type: original photographic texture atlas for a creator marketing website's industry category cards. Make ONE clean image laid out as an EXACT 4-column by 3-row rectangular contact sheet, all 12 panels equal sized, perfectly aligned, edge-to-edge with NO gutters, no borders, no typography. Each panel is an independent high quality colorful editorial photograph, no objects crossing between panels. Row 1 left to right: (1) elegant glass skincare bottles on pale pink stone with soft daylight, (2) a vivid orange and blue fashionable outfit on a clothing rail, (3) modern lime running shoes on a sunlit outdoor running track, (4) dreamy tropical turquoise coastline and pastel sky. Row 2 left to right: (5) beautiful food flatlay with citrus fruit and a bright salad, (6) a silver unbranded camera and headphones on a warm blue creative desk, (7) cozy sunlit minimalist home interior with ceramic vase and plant, (8) an unbranded game controller against expressive purple neon lighting. Row 3 left to right: (9) dramatic mountain landscape with one tiny unidentifiable hiker seen from behind, (10) aesthetically arranged colorful wooden toys and soft fabric on a cream background, (11) close-up detail of an elegant unbranded silver electric car in modern architecture, (12) friendly golden retriever in warm natural light. Premium editorial realism, balanced vibrant colors, each subject visually clear at thumbnail size, clean cohesive art direction, no logos, no readable text, no brand marks, no watermark. This is a category illustration asset only, not a website screenshot."
+  }
+}
