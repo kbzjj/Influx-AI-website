@@ -184,10 +184,39 @@
   }
   fadeEdges();
  }
+ let dragging=false,dragId=null,dragX=0,dragT=0,spinVel=0;
+ const MAX_SPIN=4,SPIN_DECAY=2.2;
+ function localPoint(e){const b=canvas.getBoundingClientRect();return {x:e.clientX-b.left,y:e.clientY-b.top};}
+ function onSphere(p){const dx=(p.x-cx)/(R*STRETCH),dy=(p.y-cy)/R;return dx*dx+dy*dy<=1;}
+ world.addEventListener('pointerdown',e=>{
+  if(e.button!==0||!onSphere(localPoint(e)))return;
+  dragging=true;dragId=e.pointerId;dragX=e.clientX;dragT=e.timeStamp;spinVel=0;
+  world.setPointerCapture(e.pointerId);world.classList.add('is-dragging');
+  if(e.pointerType==='mouse')e.preventDefault();
+ });
+ world.addEventListener('pointermove',e=>{
+  if(!dragging){if(e.pointerType==='mouse')world.classList.toggle('is-grab',onSphere(localPoint(e)));return;}
+  if(e.pointerId!==dragId)return;
+  const delta=(e.clientX-dragX)/(R*STRETCH),elapsed=Math.max(.008,(e.timeStamp-dragT)/1000);
+  phi+=delta;dragX=e.clientX;dragT=e.timeStamp;
+  spinVel=Math.max(-MAX_SPIN,Math.min(MAX_SPIN,spinVel*.6+(delta/elapsed)*.4));
+  if(!running)render(0);
+ });
+ function endDrag(e){
+  if(!dragging||e.pointerId!==dragId)return;
+  dragging=false;dragId=null;world.classList.remove('is-dragging');
+  if(e.timeStamp-dragT>90||reduced.matches)spinVel=0;
+ }
+ world.addEventListener('pointerup',endDrag);
+ world.addEventListener('pointercancel',endDrag);
+ world.addEventListener('pointerleave',e=>{if(!dragging&&e.pointerType==='mouse')world.classList.remove('is-grab');});
+ world.addEventListener('dragstart',e=>e.preventDefault());
+
  function tick(now){
   frame=0;
   const dt=last?Math.min(.05,(now-last)/1000):0;last=now;
-  phi+=dt*SPEED;render(dt);
+  if(!dragging){spinVel*=Math.exp(-dt*SPIN_DECAY);phi+=dt*(SPEED+spinVel);}
+  render(dt);
   if(running)frame=requestAnimationFrame(tick);
  }
  function sync(){

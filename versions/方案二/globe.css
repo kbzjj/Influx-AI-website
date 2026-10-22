@@ -6,7 +6,10 @@ main section.hero.wrap+section.creator-base-section{margin-top:var(--globe-shift
 @media(max-width:650px){main{--globe-shift:155px}}
 @media(max-width:650px){.hero{--globe-h:340px;--globe-shift:155px}}
 .creator-world>svg{display:none}
-.globe-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+ .creator-world,.hero .creator-world{pointer-events:auto;touch-action:pan-y;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+ .creator-world.is-grab{cursor:grab}.creator-world.is-dragging{cursor:grabbing}
+ .creator-world img{-webkit-user-drag:none;pointer-events:none}
+ .globe-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .globe-avatars{position:absolute;inset:0}
 .globe-avatar{position:absolute;left:0;top:0;width:0;height:0;will-change:transform}
 .globe-avatar>span{position:absolute;left:-18px;top:-18px;width:36px;height:36px;border:3px solid #fff;border-radius:50%;overflow:hidden;box-shadow:0 4px 12px #5b6b8a33;transform:scale(0);opacity:0;transition:transform .45s cubic-bezier(.55,0,.75,.2),opacity .3s ease-in .15s}
