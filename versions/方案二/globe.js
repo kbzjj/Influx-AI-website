@@ -156,11 +156,11 @@
   ctx.globalCompositeOperation='destination-over';
   ctx.translate(cx,cy);ctx.scale(STRETCH,1);
   ctx.beginPath();ctx.arc(0,0,R,0,Math.PI*2);
-  ctx.lineWidth=1.2/STRETCH;ctx.strokeStyle='rgba(150,166,194,.18)';ctx.stroke();
-  ctx.fillStyle=sphereGradient([[0,'rgba(130,150,185,0)'],[.85,'rgba(130,150,185,0)'],[.96,'rgba(130,150,185,.03)'],[1,'rgba(130,150,185,.06)']]);
+  ctx.lineWidth=1.2/STRETCH;ctx.strokeStyle='rgba(150,166,194,.14)';ctx.stroke();
+  ctx.fillStyle=sphereGradient([[0,'rgba(130,150,185,0)'],[.9,'rgba(130,150,185,0)'],[1,'rgba(130,150,185,.035)']]);
   ctx.fill();
-  ctx.shadowColor='rgba(91,107,138,.10)';ctx.shadowBlur=Math.max(24,W*.035);ctx.shadowOffsetY=-2;
-  ctx.fillStyle=sphereGradient([[0,'rgba(255,255,255,1)'],[.6,'rgba(254,254,255,.96)'],[1,'rgba(249,250,253,.94)']]);
+  ctx.shadowColor='rgba(91,107,138,.07)';ctx.shadowBlur=Math.max(24,W*.035);ctx.shadowOffsetY=-2;
+  ctx.fillStyle=sphereGradient([[0,'#ffffff'],[.7,'#ffffff'],[1,'#fcfdfe']]);
   ctx.fill();
   ctx.restore();
  }
