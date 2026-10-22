@@ -1,7 +1,10 @@
-.hero{--globe-h:480px}
-.creator-world,.hero .creator-world{top:auto;bottom:0;height:var(--globe-h)}
-.hero .hero-scroll{top:auto;bottom:calc(var(--globe-h) + 14px)}
-@media(max-width:650px){.hero{--globe-h:340px}}
+.hero{--globe-h:480px;--globe-shift:200px}
+main section.hero.wrap{overflow-x:clip;overflow-y:visible}
+.creator-world,.hero .creator-world{top:auto;bottom:calc(var(--globe-shift) * -1);height:var(--globe-h)}
+main{--globe-shift:200px}
+main section.hero.wrap+section.creator-base-section{margin-top:var(--globe-shift)}
+@media(max-width:650px){main{--globe-shift:155px}}
+@media(max-width:650px){.hero{--globe-h:340px;--globe-shift:155px}}
 .creator-world>svg{display:none}
 .globe-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .globe-avatars{position:absolute;inset:0}
