@@ -38,7 +38,7 @@
  function resize(){
   W=world.clientWidth;H=world.clientHeight;dpr=Math.min(devicePixelRatio||1,2);
   canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);
-  R=W*.5;cx=W/2;cy=H*.1+R;
+  R=W*.56;cx=W/2;cy=H*.09+R;
   world.style.setProperty('--avatar',Math.max(22,Math.min(40,W/1160*40)).toFixed(1)+'px');
  }
  const smooth=(a,b,v)=>{const t=Math.max(0,Math.min(1,(v-a)/(b-a)));return t*t*(3-2*t);};
@@ -147,14 +147,42 @@
   }
  }
 
+ function sphereGradient(stops){
+  const g=ctx.createRadialGradient(-R*.18,-R*.32,0,0,0,R);
+  stops.forEach(([o,c])=>g.addColorStop(o,c));return g;
+ }
+ function drawSphere(){
+  ctx.save();
+  ctx.globalCompositeOperation='destination-over';
+  ctx.translate(cx,cy);ctx.scale(STRETCH,1);
+  ctx.beginPath();ctx.arc(0,0,R,0,Math.PI*2);
+  ctx.lineWidth=1.2/STRETCH;ctx.strokeStyle='rgba(140,158,188,.30)';ctx.stroke();
+  ctx.fillStyle=sphereGradient([[0,'rgba(120,140,175,0)'],[.8,'rgba(120,140,175,0)'],[.95,'rgba(120,140,175,.05)'],[1,'rgba(120,140,175,.12)']]);
+  ctx.fill();
+  ctx.shadowColor='rgba(91,107,138,.16)';ctx.shadowBlur=Math.max(24,W*.035);ctx.shadowOffsetY=-2;
+  ctx.fillStyle=sphereGradient([[0,'rgba(255,255,255,.98)'],[.6,'rgba(252,253,255,.92)'],[1,'rgba(243,246,251,.9)']]);
+  ctx.fill();
+  ctx.restore();
+ }
+ function fadeEdges(){
+  ctx.save();ctx.globalCompositeOperation='destination-in';
+  const h=ctx.createLinearGradient(0,0,W,0);
+  h.addColorStop(0,'rgba(0,0,0,0)');h.addColorStop(.14,'#000');h.addColorStop(.86,'#000');h.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=h;ctx.fillRect(0,0,W,H);
+  const v=ctx.createLinearGradient(0,0,0,H);
+  v.addColorStop(0,'#000');v.addColorStop(.72,'#000');v.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=v;ctx.fillRect(0,0,W,H);
+  ctx.restore();
+ }
  function render(dt){
   ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
-  drawDots();tintDots();updateCreators();
+  drawDots();tintDots();drawSphere();updateCreators();
   if(!reduced.matches){
    meteorClock-=dt;
    if(meteorClock<=0){spawnMeteor();meteorClock=.55+Math.random()*.7;}
    drawMeteors(dt);
   }
+  fadeEdges();
  }
  function tick(now){
   frame=0;
