@@ -91,6 +91,9 @@
 /* Hide menu button and related elements */
 .menu-button,.menu-panel,.menu-scrim{display:none!important}
 
+/* Scrolled header: translucent frosted glass. */
+.site-header.is-scrolled{background:rgba(247,247,245,.72);-webkit-backdrop-filter:blur(20px) saturate(160%);backdrop-filter:blur(20px) saturate(160%);border-bottom-color:rgba(0,0,0,.06)}
+
 /* Header CTA: arrow sized to the 12px label, tighter gap. */
 .nav-contact{gap:10px}
 .nav-contact>span:last-child>img{width:16px;height:12px}
