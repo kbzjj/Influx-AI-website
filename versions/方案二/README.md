@@ -2,10 +2,11 @@
 
 日期：2026-10-22（Asia/Shanghai）
 
+> 2026-10-23 更新：按用户要求删除方案一及其相同的 `preview/` 副本、校验清单和缩略图。当前只保留方案二；根目录预览入口和 `启动预览.command` 均指向方案二。下方早期方案一封存与校验描述为历史实施记录。
+
 ## 入口
 
-- 方案对照：http://127.0.0.1:4174/
-- 方案一封存：http://127.0.0.1:4174/versions/%E6%96%B9%E6%A1%88%E4%B8%80/
+- 默认预览（直接进入方案二）：http://127.0.0.1:4174/
 - 方案二 PC：http://127.0.0.1:4174/versions/%E6%96%B9%E6%A1%88%E4%BA%8C/
 - Veo 本地公开首页快照：http://127.0.0.1:4174/references/veo-public/
 
@@ -128,3 +129,11 @@ Use case: ads-marketing. Asset type: original photographic texture atlas for a c
 预览：
 - 定价：<http://127.0.0.1:4174/versions/%E6%96%B9%E6%A1%88%E4%BA%8C/pricing.html>
 - 工具：<http://127.0.0.1:4174/versions/%E6%96%B9%E6%A1%88%E4%BA%8C/free-tools.html>
+
+
+## 2026-10-23 导航、地球头像与联系介绍
+
+- 桌面导航改为对应内容区域宽度的约 2/3，最小 680px 以容纳现有菜单；首页和定价页最大 800px，工具页最大约 773px。
+- 地球使用 12 位不同虚构人物的头像图集 `assets/globe-portraits-atlas.png`，保留 58 个坐标点，同屏最多显示 12 个；头像进入视野时循环分配当前未显示的人物，避免同屏重复。已显示的头像保持稳定，离开后再分配。
+- 图集通过内置 image_gen 工具生成，4 列 × 3 行。完整提示词和来源保存在 `assets/globe-portraits-source.json`。
+- 联系板块新增英文标签 `GET IN TOUCH`，以及支持中英文切换的简短说明。中文为“聊聊你的目标与合作需求，一起探索合适的达人营销方案。”

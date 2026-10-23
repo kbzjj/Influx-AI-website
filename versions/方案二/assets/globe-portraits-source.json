@@ -1,0 +1,12 @@
+{
+  "file": "globe-portraits-atlas.png",
+  "source": "OpenAI image_gen built-in tool",
+  "generated": "2026-10-23",
+  "layout": {
+    "columns": 4,
+    "rows": 3,
+    "portraits": 12
+  },
+  "usage": "Fictional adult portraits for decorative globe markers; no real creator or endorsement implied",
+  "prompt": "Use case: photorealistic-natural. Create ONE photographic sprite atlas asset for small circular avatar markers on a global creator marketing website. The complete image must be an EXACT regular 4-column by 3-row grid of 12 equal square portrait tiles, landscape 4:3 aspect ratio. NO gutters, NO borders, NO text or labels, NO watermarks. Each tile contains a DIFFERENT fictional adult person, one person per tile, natural editorial headshot from top of hair to upper shoulders, face centered both horizontally and vertically and fully inside the central 65% of each tile so it remains readable after a circular crop. Consistent soft natural daylight, realistic skin texture and anatomy, friendly subtle expressions, softly blurred neutral outdoor or indoor backgrounds. Twelve noticeably distinct faces, hairstyles and clothing: row1 an East Asian woman with black bob and light blouse, a Black man with short curls and blue tee, a South Asian woman with long dark hair and coral top, a white man with auburn hair and light stubble and olive shirt; row2 a Latina woman with brown curls and cream top, an East Asian man with black hair and round glasses and dark tee, a Black woman with natural afro and ochre blouse, a Middle Eastern man with short dark hair and neat beard and tan shirt; row3 a Southeast Asian woman with tied black hair and blue shirt, a white woman with blonde pixie hair and green top, a South Asian man with wavy hair and burgundy tee, a Latino man with shoulder-length dark hair and off-white shirt. Adults about 25-45. Avoid repeated identities, celebrities, props obscuring faces, hands, harsh shadows or fashion catalog full-body shots. This is one sprite atlas image, not a webpage mockup."
+}

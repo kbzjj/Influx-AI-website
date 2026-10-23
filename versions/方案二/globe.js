@@ -14,15 +14,16 @@
  const dots=new Float32Array(raw.length/2*3);
  for(let i=0,j=0;i<raw.length;i+=2,j+=3){const lat=raw[i]/10*DEG,lon=raw[i+1]/10*DEG;dots[j]=Math.cos(lat)*Math.sin(lon);dots[j+1]=Math.sin(lat);dots[j+2]=Math.cos(lat)*Math.cos(lon);}
 
- const portraits=['assets/portrait-1.jpg','assets/portrait-2.jpg','assets/portrait-3.jpg','assets/portrait-4.jpg'];
+ const PORTRAIT_COUNT=12;
+ let portraitCursor=0;
  const cities=[[40.7,-74],[34,-118.2],[43.7,-79.4],[19.4,-99.1],[25.8,-80.2],[47.6,-122.3],[41.9,-87.6],[51.5,-.1],[48.9,2.3],[52.5,13.4],[40.4,-3.7],[41,29],[30,31.2],[25.2,55.3],[19.1,72.9],[28.6,77.2],[13.8,100.5],[31.2,121.5],[35.7,139.7],[37.6,127],[14.6,121],[6.5,3.4],[55.8,37.6],[24.7,46.7],[1.35,103.8],[22.3,114.2],[-1.3,36.8],[59.3,18.1],[45.5,9.2],[39.9,116.4],[49.3,-123.1],[21.3,-157.9],[4.7,-74.1],[29.8,-95.4],[39.7,-105],[45.5,-73.6],[61.2,-149.9],[33.7,-84.4],[37.8,-122.4],[53.3,-6.3],[50.1,14.4],[38,23.7],[32.1,34.8],[41.3,69.2],[23.8,90.4],[21,105.8],[43.1,141.3],[34.7,135.5],[3.1,101.7],[55,82.9],[43.2,76.9],[9,38.7],[14.7,-17.5],[33.6,-7.6],[64.1,-21.9],[47.9,106.9],[13.4,144.8],[25,121.5]];
  const creators=cities.map(([lat,lon],i)=>{
   const el=document.createElement('span');el.className='globe-avatar';
   const face=document.createElement('span');
-  const img=document.createElement('img');img.src=portraits[i%portraits.length];img.alt='';img.width=80;img.height=80;img.decoding='async';
-  face.appendChild(img);el.appendChild(face);layer.appendChild(el);
+  face.className='globe-portrait';
+  el.appendChild(face);layer.appendChild(el);
   const a=lat*DEG,b=lon*DEG;
-  return {el,v:[Math.cos(a)*Math.sin(b),Math.sin(a),Math.cos(a)*Math.cos(b)],size:.82+((i*37)%19)/19*.36,shown:false,x:0,y:0,z:0};
+  return {el,face,portrait:-1,v:[Math.cos(a)*Math.sin(b),Math.sin(a),Math.cos(a)*Math.cos(b)],size:.82+((i*37)%19)/19*.36,shown:false,x:0,y:0,z:0};
  });
 
  let W=0,H=0,R=0,cx=0,cy=0,dpr=1,phi=-.35,last=0,frame=0,running=false,inView=true,meteorClock=0;
@@ -82,10 +83,30 @@
  }
  function updateCreators(){
   const scale=parseFloat(getComputedStyle(world).getPropertyValue('--avatar'))||36;
+  // Release portraits that leave the view before choosing faces for new arrivals.
+  const usage=Array(PORTRAIT_COUNT).fill(0);
   creators.forEach(c=>{
    project(c.v[0],c.v[1],c.v[2],c);
-   const visible=c.z>.2&&c.y>H*.16&&c.y<H*.84&&c.x>W*.12&&c.x<W*.88;
-   if(visible!==c.shown){c.shown=visible;c.el.classList.toggle('is-visible',visible);}
+   c.visible=c.z>.2&&c.y>H*.16&&c.y<H*.84&&c.x>W*.12&&c.x<W*.88;
+   if(c.visible&&c.shown)usage[c.portrait]++;
+  });
+  let liveCount=usage.reduce((total,count)=>total+count,0);
+  creators.forEach(c=>{
+   // Keep at most one visible marker per portrait in the twelve-person pool.
+   if(c.visible&&!c.shown&&liveCount>=PORTRAIT_COUNT)c.visible=false;
+   if(c.visible&&!c.shown){
+    liveCount++;
+    const leastUsed=Math.min(...usage);
+    for(let offset=0;offset<PORTRAIT_COUNT;offset++){
+     const candidate=(portraitCursor+offset)%PORTRAIT_COUNT;
+     if(usage[candidate]!==leastUsed)continue;
+     c.portrait=candidate;portraitCursor=(candidate+1)%PORTRAIT_COUNT;usage[candidate]++;
+     c.face.style.backgroundPosition=`${candidate%4/3*100}% ${Math.floor(candidate/4)/2*100}%`;
+     c.face.dataset.portrait=String(candidate);
+     break;
+    }
+   }
+   if(c.visible!==c.shown){c.shown=c.visible;c.el.classList.toggle('is-visible',c.visible);}
    const depth=.72+.28*smooth(.28,.85,c.z);
    c.el.style.transform=`translate3d(${c.x.toFixed(1)}px,${c.y.toFixed(1)}px,0) scale(${(depth*c.size*scale/36).toFixed(3)})`;
    c.el.style.zIndex=Math.round(c.z*100);

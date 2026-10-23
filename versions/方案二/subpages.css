@@ -107,3 +107,6 @@ html[lang=zh-CN] .subpage .pricing-heading h1{font-size:58px;line-height:1.25;le
 html[lang=zh-CN] .subpage .free-main .pricing-heading h1{font-size:52px;line-height:1.2}
 .subpage .calculator-panel{margin-top:45px;padding:38px}
 .subpage .calculator-panel form{padding:26px}
+
+/* Keep desktop navigation at about two thirds of each page content width while scrolling. */
+@media(min-width:851px){.subpage header,.subpage header.is-scrolled{width:clamp(680px,calc((100% - 80px)*2/3),calc(var(--wrap)*2/3));max-width:calc(100% - 48px)}.subpage[data-page="free-tools"] header{width:clamp(680px,calc((100% - 80px)*2/3),calc(1160px*2/3))}}
