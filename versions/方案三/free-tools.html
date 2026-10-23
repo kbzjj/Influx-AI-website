@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7f5">
+<meta name="description" content="Free Influx AI tools, starting with a creator engagement rate calculator.">
+<title>Influx AI — Free Tools</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preload" href="assets/inter-bold.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reels-refinements.css">
+<link rel="stylesheet" href="subpages.css">
+</head>
+<body class="subpage" data-page="free-tools">
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Influx AI home"><img src="assets/logo.png" alt="Influx AI" width="494" height="120"></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="index.html#tool" data-i18n="navproduct">Product</a>
+    <a href="index.html#managed" data-i18n="navmanaged">Services</a>
+    <a href="pricing.html" data-i18n="navpricing">Pricing</a>
+    <a href="free-tools.html" aria-current="page" data-i18n="navfree">Free Tools</a>
+  </nav>
+  <div class="nav-right">
+    <div class="language-switch" role="group" aria-label="Language"><button data-lang="zh" aria-pressed="false">中文</button><span>/</span><button data-lang="en" aria-pressed="true">EN</button></div>
+    <a class="nav-contact" href="index.html#contact"><span data-i18n="contactsimple">Contact us</span><span aria-hidden="true"><img src="assets/button-arrow.svg" alt="" width="21" height="16"></span></a>
+  </div>
+</header>
+
+<main id="main" class="sp-main container">
+  <section class="sp-hero" aria-labelledby="free-title">
+    <div class="sp-kicker"><span class="micro" data-i18n="sp_freekicker">Free tools</span><span class="micro" data-i18n="sp_freemeta">No sign-up needed</span></div>
+    <div class="sp-hero-body">
+      <h1 id="free-title" data-i18n="sp_freetitle">Free tools for<br>a <em>clearer</em> perspective.</h1>
+      <div class="sp-hero-aside"><p data-i18n="freeintro">Start with a simple way to calculate creator engagement.</p></div>
+    </div>
+  </section>
+
+  <section class="sp-calc" aria-labelledby="calc-title">
+    <form id="engagement-calculator" class="sp-calc-form">
+      <h2 id="calc-title" data-i18n="calctitle">Engagement rate calculator</h2>
+      <p data-i18n="calcdesc">Enter likes and comments for one post, plus the creator's follower count.</p>
+      <div class="sp-calc-fields">
+        <div><label for="calc-followers" data-i18n="followerslabel">Followers</label><input id="calc-followers" name="followers" type="number" min="1" step="1" required inputmode="numeric" placeholder="120000"></div>
+        <div class="form-row">
+          <div><label for="calc-likes" data-i18n="likeslabel">Likes</label><input id="calc-likes" name="likes" type="number" min="0" step="1" required inputmode="numeric" placeholder="4800"></div>
+          <div><label for="calc-comments" data-i18n="commentslabel">Comments</label><input id="calc-comments" name="comments" type="number" min="0" step="1" required inputmode="numeric" placeholder="260"></div>
+        </div>
+      </div>
+      <button class="button" type="submit"><span class="button-icon" aria-hidden="true"><img src="assets/button-arrow.svg" alt=""></span><span class="button-label"><span class="button-label-first" data-i18n="sp_calcbutton">Calculate engagement rate</span></span></button>
+    </form>
+
+    <div class="sp-result">
+      <div>
+        <span class="micro" data-i18n="sp_resultkicker">Result</span>
+        <output id="engagement-result" for="calc-followers calc-likes calc-comments" aria-live="polite">—</output>
+        <p class="sp-result-label" data-i18n="resultlabel">Engagement rate by followers</p>
+      </div>
+      <div class="sp-formula">
+        <p class="sp-formula-main" data-i18n="formulalabel">Formula: (likes + comments) ÷ followers × 100%</p>
+        <p data-i18n="calcnote">This is the engagement rate for a single post. It does not determine a creator's overall partnership value.</p>
+      </div>
+    </div>
+  </section>
+
+  <nav class="sp-next" aria-label="Next steps">
+    <a href="index.html#tool"><span><span data-i18n="sp_explore">Explore product capabilities</span><small data-i18n="sp_exploredesc">Creator search, data analysis and audience insight.</small></span><span aria-hidden="true"><img src="assets/button-arrow.svg" alt=""></span></a>
+    <a href="pricing.html#services"><span><span data-i18n="sp_talk">Work with our team</span><small data-i18n="sp_talkdesc">Planning and execution support from Influx.</small></span><span aria-hidden="true"><img src="assets/button-arrow.svg" alt=""></span></a>
+  </nav>
+</main>
+
+<footer class="site-footer"><div class="container">
+  <div class="footer-top">
+    <div><a href="index.html" aria-label="Influx AI home"><img src="assets/logo-white.png" alt="Influx AI" width="494" height="120"></a><p data-i18n="footerdesc">An AI- and data-driven influencer marketing company.</p></div>
+    <nav aria-label="Footer navigation"><a href="index.html#tool" data-i18n="navproduct">Product</a><a href="index.html#managed" data-i18n="navmanaged">Services</a><a href="pricing.html" data-i18n="navpricing">Pricing</a><a href="free-tools.html" data-i18n="navfree">Free Tools</a><a href="index.html#contact" data-i18n="contactsimple">Contact us</a></nav>
+  </div>
+  <div class="footer-wordmark" aria-hidden="true">influx<span>✳</span></div>
+  <div class="footer-bottom"><span>© 2026 Influx AI</span><span data-i18n="footernote">Real connections. Worldwide access.</span><div><button data-preview="terms" data-i18n="termstitle">Terms of service</button><button data-preview="agreement" data-i18n="agreementtitle">User agreement</button><button data-preview="privacy" data-i18n="privacytitle">Privacy policy</button></div></div>
+</div></footer>
+
+<dialog id="brief-dialog">
+  <button class="close" id="close-dialog" aria-label="Close">×</button>
+  <span class="eyebrow" data-i18n="dialoglabel">LET'S FIND YOUR FIT</span>
+  <h2 data-i18n="dialogtitle">Tell us about your brand and goals.</h2>
+  <p data-i18n="dialogintro">Fill in your details to start a conversation. This preview saves your inquiry in this browser; it is not sent yet.</p>
+  <form id="brief-form">
+    <div class="form-row">
+      <div><label for="brief-name" data-i18n="formname">Your name</label><input id="brief-name" autocomplete="name" maxlength="100" required></div>
+      <div><label for="brief-email" data-i18n="formemail">Work email</label><input id="brief-email" type="email" autocomplete="email" maxlength="200" required></div>
+    </div>
+    <label for="service" data-i18n="servicelabel">How would you like to work?</label>
+    <select id="service"><option value="tool" data-i18n="optiontool">Tool — equip my team</option><option value="agency" data-i18n="optionagency">Services — work with your team</option><option value="both" data-i18n="optionboth">I'd like to explore both</option></select>
+    <label for="brand" data-i18n="brandlabel">Brand / company</label><input id="brand" maxlength="120" required autocomplete="organization">
+    <label for="goal" data-i18n="goallabel">What would you like to achieve?</label><textarea id="goal" rows="3" maxlength="2000" required></textarea>
+    <button class="button primary" type="submit" data-i18n="download">Send inquiry →</button>
+    <p id="form-status" role="status"></p>
+  </form>
+</dialog>
+<dialog id="site-info-dialog" class="site-info-dialog">
+  <button class="close" type="button" data-close-info aria-label="Close">×</button>
+  <div data-preview-panel="terms" hidden><h2 data-i18n="termstitle">Terms of service</h2><p data-i18n="termsdetail">The full terms of service will be available here before launch. This preview is not a binding agreement.</p></div>
+  <div data-preview-panel="agreement" hidden><h2 data-i18n="agreementtitle">User agreement</h2><p data-i18n="agreementdetail">The user agreement is being prepared and will be published here before account registration opens.</p></div>
+  <div data-preview-panel="privacy" hidden><h2 data-i18n="privacytitle">Privacy policy</h2><p data-i18n="privacydetail">The full privacy policy will be published before launch. Inquiry forms in this preview only save information in your browser.</p></div>
+</dialog>
+<script src="app.js"></script>
+<script src="subpages.js"></script>
+</body>
+</html>
