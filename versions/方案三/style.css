@@ -26,3 +26,10 @@ html[lang=zh-CN] h2{letter-spacing:-1.5px;line-height:1.18}html[lang=zh-CN] .her
 .zoom-hint{padding:0;background:transparent;font-size:inherit;cursor:zoom-in}.zoom-hint:hover{text-decoration:underline}
 .site-header{position:fixed;transition:transform .4s ease,background .3s,border-color .3s;border-bottom:1px solid transparent}.site-header.is-scrolled{background:#f7f7f5ed;backdrop-filter:blur(12px);border-bottom-color:#00000008}.site-header.is-hidden{transform:translateY(-105%);pointer-events:none}.menu-open .site-header{transform:none;pointer-events:auto}
 .product-copy{min-width:0}@media(max-width:800px){.product-card{grid-template-columns:minmax(0,1fr)}.product-copy h3 br{display:block}}
+@font-face{font-family:'D-DIN';src:url('assets/d-din-regular.otf') format('opentype');font-weight:400 500;font-display:swap}
+@font-face{font-family:'D-DIN';src:url('assets/d-din-bold.otf') format('opentype');font-weight:600 900;font-display:swap}
+.network-card-number,.stat-number,.step-number,.sp-plan-price,.sp-result output{font-family:'D-DIN','DIN Alternate','DIN Condensed','Inter Display',sans-serif;font-variant-numeric:tabular-nums}
+.network-card-number,.network-card-number>span{letter-spacing:-1px}
+.stat-number{letter-spacing:-2px}.stat-number>span{letter-spacing:-1px}
+.sp-plan-price{letter-spacing:-.01em}.sp-plan-price span{font-family:'Inter Display','PingFang SC',sans-serif}
+.sp-result output{letter-spacing:-.02em}
