@@ -1,0 +1,11 @@
+{
+  "name": "influx-ai-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Influx AI 官网静态预览",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}

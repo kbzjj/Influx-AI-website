@@ -233,7 +233,8 @@
     if (open) { lenis?.stop(); menu.querySelector('a').focus(); }
     else { lenis?.start(); if (restoreFocus) menuButton.focus(); }
   }
-  menuButton.addEventListener('click', () => setMenu(menu.hidden));
+  const menuClosed = () => !menu || menu.hidden;
+  menuButton?.addEventListener('click', () => setMenu(menu.hidden));
   let previousScroll = scrollY;
   let scrollQueued = false;
   addEventListener('scroll', () => {
@@ -243,17 +244,17 @@
       const current = scrollY;
       header.classList.toggle('is-scrolled', current > 50);
       if (Math.abs(current - previousScroll) > 4) {
-        header.classList.toggle('is-hidden', current > 140 && current > previousScroll && menu.hidden && !header.querySelector(':focus-visible'));
+        header.classList.toggle('is-hidden', current > 140 && current > previousScroll && menuClosed() && !header.querySelector(':focus-visible'));
         previousScroll = current;
       }
       scrollQueued = false;
     });
   }, { passive: true });
   header.addEventListener('focusin', () => header.classList.remove('is-hidden'));
-  scrim.addEventListener('click', () => setMenu(false));
-  menu.querySelectorAll('a,button').forEach(link => link.addEventListener('click', () => setMenu(false, false)));
+  scrim?.addEventListener('click', () => setMenu(false));
+  menu?.querySelectorAll('a,button').forEach(link => link.addEventListener('click', () => setMenu(false, false)));
   document.addEventListener('keydown', event => {
-    if (menu.hidden) return;
+    if (menuClosed()) return;
     if (event.key === 'Escape') { event.preventDefault(); setMenu(false); }
     if (event.key === 'Tab') {
       const stops = [menuButton, ...menu.querySelectorAll('a,button')];
@@ -266,7 +267,7 @@
   document.querySelectorAll('dialog').forEach(dialog => {
     new MutationObserver(() => {
       if ([...document.querySelectorAll('dialog')].some(item => item.open)) lenis?.stop();
-      else if (menu.hidden) lenis?.start();
+      else if (menuClosed()) lenis?.start();
     }).observe(dialog, { attributes: true, attributeFilter: ['open'] });
   });
   const track = document.querySelector('.category-track');
