@@ -1,0 +1,63 @@
+{
+  "viewports": [
+    {
+      "heroOverflow": false,
+      "lang": "zh-CN",
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "undefinedText": false,
+      "width": 1280
+    },
+    {
+      "heroOverflow": false,
+      "lang": "en",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "lang": "en",
+      "overflow": false,
+      "undefinedText": false,
+      "width": 1440
+    },
+    {
+      "lang": "zh-CN",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "lang": "zh-CN",
+      "overflow": false,
+      "width": 1920
+    }
+  ],
+  "phone": {
+    "width": 390,
+    "overflow": false,
+    "language": "zh-CN"
+  },
+  "consoleWarningsAndErrors": [],
+  "verified": [
+    "Resource card hover straightens, scales and nudges adjacent cards",
+    "Native Reels platform SVGs render",
+    "Colored card stack with scroll progress",
+    "Original Reels button arrow SVG and two-line text transition",
+    "Button first text translated -24.56px; second at 0; width unchanged",
+    "Identity control aligned with contact form left edge; menu below by 8px",
+    "Keyboard role change updates native select and disables inactive fields",
+    "Creator platform selection updates native select",
+    "Inquiry modal service selector resyncs on reopen",
+    "Global pause stops both marquees",
+    "Language switch synchronizes button labels and enhanced selects"
+  ],
+  "formSubmitted": false
+}

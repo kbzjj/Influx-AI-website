@@ -1,0 +1,38 @@
+{
+  "purpose": "Local design review only. Reels imagery and videos are temporary reference assets, not Influx creators or customer endorsements.",
+  "reference": "https://reels-wbs.webflow.io/",
+  "reels_assets": {
+    "hero-1.mp4": "b061515e19-6a113163252550526230459b_hero-01_mp4.mp4",
+    "hero-2.mp4": "b8f0cebe4e-6a11319549ee8658827a99a3_hero-02_mp4.mp4",
+    "hero-3.mp4": "0eb049bd3e-6a1131e32b90b09311d025ac_hero-03_mp4.mp4",
+    "hero-1.jpg": "1d0d3f72f5-6a113163252550526230459b_hero-01_poster.0000000.jpg",
+    "hero-2.jpg": "b6bc068c0c-6a11319549ee8658827a99a3_hero-02_poster.0000000.jpg",
+    "hero-3.jpg": "0037c3da9c-6a1131e32b90b09311d025ac_hero-03_poster.0000000.jpg",
+    "service.mp4": "3d0b9d1baf-6a11322c6704e9bc494241f5_about_mp4.mp4",
+    "service.jpg": "cd6028c3b5-6a11322c6704e9bc494241f5_about_poster.0000000.jpg",
+    "creator-1.avif": "f87a19415a-6a04108de09d4a92c3a1ced6_1.avif",
+    "creator-2.avif": "4933eb071c-6a0418fb1155356dd26395f2_2.avif",
+    "creator-3.avif": "0b4fbf8b33-6a0418fbe8e0c49f7a0ef006_3.avif",
+    "creator-4.avif": "fea9dac1fb-6a0418fb5829c7a24d41fcec_4.avif",
+    "creator-5.avif": "fe76e8ae2e-6a0418fc46f7e5946b547208_5.avif",
+    "creator-6.avif": "d0d94cb479-6a0418fc345b0e0a98194250_6.avif",
+    "creator-7.avif": "57d5435c37-6a0418fcc3e1aad9593aaadc_8.avif",
+    "creator-8.avif": "43a5fa712c-6a0418fd0a1c361940feafba_9.avif",
+    "inter-regular.ttf": "3d06a34bcf-6a11547bd4992f68121b577f_InterDisplay-Regular.ttf",
+    "inter-medium.ttf": "ce0ec08b27-6a019d97db60a2b242d37f91_InterDisplay-Medium.ttf",
+    "inter-bold.ttf": "94d340a5d8-6a019d972cda72cb6f1fd9ac_InterDisplay-Bold.ttf",
+    "category-beauty.jpg": "42be715544-6a085f670402165b8408f4fb_XjTPRbUjHyDKhh6fxOM5ovxI.jpeg",
+    "category-food.jpg": "1d2f7c396e-6a085f6442081c09f6a674bd_SA0IUSyJ6tpWVEbTk6WgvRkt0.jpeg",
+    "editorial-fashion.avif": "1f96398fb2-6a0701aadf310ee6a5cecb5a_counter.avif",
+    "editorial-perspectives.avif": "4f89458062-6a104b69d54ca4c5df6839a9_4.avif"
+  },
+  "product_assets": {
+    "source": "Existing supplied 2880 × 1800 product screenshots from scheme two; full images without cropping.",
+    "mapping": {
+      "product-ai.png": "product-ai.png",
+      "product-marketplace.png": "product-marketplace.png",
+      "product-campaigns.png": "product-campaigns.png",
+      "product-insight.png": "product-insight.png"
+    }
+  }
+}

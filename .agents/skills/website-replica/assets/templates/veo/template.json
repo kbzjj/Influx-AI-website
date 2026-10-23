@@ -1,0 +1,19 @@
+{
+  "name": "Veo",
+  "description": "漂浮画面、渐变标题与动态画廊，一间轻盈的 AI 创意工作室。",
+  "category": "AI 产品",
+  "stack": "Framer",
+  "sourceUrl": "https://veo.framer.ai/",
+  "entry": "index.html",
+  "cover": "qa/local-home.png",
+  "guide": "STUDY_GUIDE.md",
+  "tags": [
+    "漂浮动效",
+    "动态画廊",
+    "前后对比",
+    "AI 产品"
+  ],
+  "pageCount": 19,
+  "status": "已收录 · 本地视觉与动效预览",
+  "order": 2
+}

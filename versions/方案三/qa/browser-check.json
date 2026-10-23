@@ -1,0 +1,85 @@
+{
+  "desktop": [
+    {
+      "documentWidth": 1265,
+      "height": 800,
+      "overflow": false,
+      "tallestCard": 550,
+      "width": 1280
+    },
+    {
+      "documentWidth": 1425,
+      "height": 1000,
+      "overflow": false,
+      "tallestCard": 607,
+      "width": 1440
+    },
+    {
+      "documentWidth": 1905,
+      "height": 1080,
+      "overflow": false,
+      "tallestCard": 670,
+      "width": 1920
+    }
+  ],
+  "englishWidths": [
+    {
+      "documentWidth": 1265,
+      "heroOverflow": false,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "documentWidth": 1425,
+      "heroOverflow": false,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "documentWidth": 1905,
+      "heroOverflow": false,
+      "overflow": false,
+      "width": 1920
+    },
+    {
+      "documentWidth": 375,
+      "heroOverflow": false,
+      "overflow": false,
+      "width": 390
+    }
+  ],
+  "chineseWidths": [
+    {
+      "documentWidth": 1265,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "documentWidth": 1425,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "documentWidth": 1905,
+      "overflow": false,
+      "width": 1920
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "verifiedInteractions": [
+    "Language switch",
+    "Anchor navigation",
+    "Screenshot image and button open / close",
+    "Product inquiry modal",
+    "FAQ disclosure",
+    "Category carousel",
+    "Menu open, Escape close and focus return",
+    "Global motion pause / resume",
+    "Role-specific required fields and platform selection"
+  ],
+  "notVerified": [
+    "System reduced-motion preference was not changed",
+    "Inquiry form was not submitted",
+    "No production deployment"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "pages": 22,
+  "downloaded_assets": 245,
+  "mp4_videos": 8,
+  "local_references_checked": 268,
+  "missing_files": [],
+  "external_static_dependencies": [
+    [
+      "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/how-brands-approach-influencers-today/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/how-brands-approach-influencers-today/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/brand-consistency-drives-long-term-success/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/brand-consistency-drives-long-term-success/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ],
+    [
+      "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/-U0IXSmp6kc"
+    ],
+    [
+      "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "iframe",
+      "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    ]
+  ],
+  "http_failures": []
+}

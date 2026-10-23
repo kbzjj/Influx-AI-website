@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站视觉与动效复刻"
+  short_description: "先确认范围，复刻网站视觉动效并入库，通过模板中心统一预览学习"
+  default_prompt: "使用 $website-replica 复刻这个网站的前端视觉与动效，请先让我确认复刻范围："

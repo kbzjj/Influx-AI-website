@@ -1,0 +1,952 @@
+{
+  "local_files_checked": 268,
+  "manifest_assets_checked": 245,
+  "missing": [],
+  "hash_mismatches": [],
+  "external": [
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "about/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/5-ugc-mistakes-that-are-killing-conversion/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/brand-consistency-drives-long-term-success/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/how-brands-approach-influencers-today/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/how-brands-are-winning-with-short-form-content/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/stay-consistent-on-social-media-without-stress/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/whats-working-in-creator-marketing-in-2026/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/-U0IXSmp6kc"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/8AHPXm9Y6mI?iv_load_policy=3&rel=0&modestbranding=1&playsinline=1&autoplay=0&mute=1"
+    },
+    {
+      "source": "blog/why-content-systems-are-replacing-campaigns/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "case-studies/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "case-study/duskline-apparel/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "case-study/mintwave-drinks/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "case-study/noire-feeling/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "case-study/oralyn-skincare/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "faqs/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.webestica.com/webflow-all-access?utm_source=template-preview&utm_medium=banner&utm_campaign=all-acces&utm_content=reels"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "utility-pages/changelog/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/courses/webflow-101-crash-course"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/variables"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.webestica.com/webflow-template-support"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.webestica.com/webflow-development"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://www.iconstica.com/free-icons"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/image-conversion-tool?topics=layout-design"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/triggers-and-animations#how-to-delete-triggers-and-animations"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/style-manager#clean-up"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/audit-panel"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/seo-title-meta-description"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/blog/seo-and-webflow-the-essential-guide"
+    },
+    {
+      "source": "utility-pages/instructions/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.pexels.com/license/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.freepikcompany.com/legal"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.iconstica.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://www.flaticon.com/"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://fonts.google.com/specimen/Boldonse/license?preview.script=Latn"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://fontmeme.com/read/#license"
+    },
+    {
+      "source": "utility-pages/licenses/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://university.webflow.com/lesson/rich-text#advanced-styling"
+    },
+    {
+      "source": "utility-pages/style-guide/index.html",
+      "kind": "navigation",
+      "url": "https://webflow.com/templates/designers/webestica"
+    }
+  ],
+  "runtime_routes": [],
+  "download_failures": {},
+  "runtime_review": [],
+  "note": "Static checks only. External embeds, JS modules, API calls and visual/motion fidelity require browser verification."
+}

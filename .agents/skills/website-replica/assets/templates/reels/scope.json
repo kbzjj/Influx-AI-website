@@ -1,0 +1,43 @@
+{
+  "source_url": "https://reels-wbs.webflow.io/",
+  "confirmed_scope": "原会话已确认并完成的公开页面完整复刻；本次迁入模板库",
+  "included_pages": [
+    "/",
+    "/about",
+    "/blog",
+    "/blog/5-ugc-mistakes-that-are-killing-conversion",
+    "/blog/brand-consistency-drives-long-term-success",
+    "/blog/how-brands-approach-influencers-today",
+    "/blog/how-brands-are-winning-with-short-form-content",
+    "/blog/stay-consistent-on-social-media-without-stress",
+    "/blog/whats-working-in-creator-marketing-in-2026",
+    "/blog/why-content-systems-are-replacing-campaigns",
+    "/case-studies",
+    "/case-study/duskline-apparel",
+    "/case-study/mintwave-drinks",
+    "/case-study/noire-feeling",
+    "/case-study/oralyn-skincare",
+    "/contact",
+    "/faqs",
+    "/privacy-policy",
+    "/utility-pages/changelog",
+    "/utility-pages/instructions",
+    "/utility-pages/licenses",
+    "/utility-pages/style-guide"
+  ],
+  "excluded": [
+    "外部商业服务与后台"
+  ],
+  "key_interactions": [
+    "菜单",
+    "视频",
+    "案例轮播",
+    "定价 Tabs",
+    "FAQ",
+    "GSAP 滚动动画"
+  ],
+  "viewports": [
+    1280,
+    390
+  ]
+}

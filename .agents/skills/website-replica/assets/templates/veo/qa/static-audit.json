@@ -1,0 +1,1032 @@
+{
+  "local_files_checked": 572,
+  "manifest_assets_checked": 614,
+  "missing": [],
+  "hash_mismatches": [],
+  "external": [
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/10-inspiring-ways-to-use-aiveo-for-your-next-project/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/how-to-build-your-own-ai-style-library-for-endless-inspiration/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/how-to-turn-simple-prompts-into-professional-grade-visuals/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/the-future-of-mobile-creativity-how-ai-is-redefining-design/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.youtube.com/@Framer"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://aerosound.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://quomi.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://xzero.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://wedora.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://vistiq.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://plywood.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://avenzor.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://huggl.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://charmant.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://predict.framer.ai/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://payble.framer.ai/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://pepper.framer.website/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "contact/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/u9kaVNV"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://aerosound.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://quomi.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://xzero.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://wedora.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://vistiq.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://plywood.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://avenzor.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://huggl.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://charmant.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://predict.framer.ai/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://payble.framer.ai/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://pepper.framer.website/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "features/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "gallery/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/u9kaVNV"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://aerosound.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://quomi.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://xzero.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://wedora.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://vistiq.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://plywood.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://avenzor.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://huggl.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://charmant.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://predict.framer.ai/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://payble.framer.ai/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://pepper.framer.website/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "legal/cookie-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "legal/privacy-policy/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "legal/refunds/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "legal/terms-of-service/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://buy.polar.sh/polar_cl_umZE53J0Vj9DKZJj1luHxqxItMsHmCk5OyHbW37dGNJ"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/u9kaVNV"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://aerosound.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://quomi.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://xzero.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://wedora.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://vistiq.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://plywood.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://avenzor.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://huggl.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://charmant.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://predict.framer.ai/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://payble.framer.ai/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://pepper.framer.website/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/cristianmielu"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://x.com/CristianMielu"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/UdEP7eA"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://framer.link/mTQi1ow"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://www.instagram.com/cristian_mielu/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://www.uihub.design/"
+    },
+    {
+      "source": "pricing/index.html",
+      "kind": "navigation",
+      "url": "https://www.framer.com"
+    }
+  ],
+  "runtime_routes": [],
+  "download_failures": {},
+  "runtime_review": [],
+  "note": "Static checks only. External embeds, JS modules, API calls and visual/motion fidelity require browser verification."
+}

@@ -1,0 +1,42 @@
+{
+  "source_url": "https://veo.framer.ai/",
+  "confirmed_scope": "用户选择 B：首页及导航可到达的所有公开子页面；按同源公开导航盘点共 19 页。",
+  "included_pages": [
+    "https://veo.framer.ai/",
+    "https://veo.framer.ai/blog",
+    "https://veo.framer.ai/blog/10-inspiring-ways-to-use-aiveo-for-your-next-project",
+    "https://veo.framer.ai/blog/a-beginner-s-guide-to-creating-stunning-ai-videos-on-mobile",
+    "https://veo.framer.ai/blog/exploring-dreamcore-vaporwave-and-beyond-ai-styles-explained",
+    "https://veo.framer.ai/blog/from-sketch-to-masterpiece-ai-s-role-in-modern-art",
+    "https://veo.framer.ai/blog/how-to-build-your-own-ai-style-library-for-endless-inspiration",
+    "https://veo.framer.ai/blog/how-to-turn-simple-prompts-into-professional-grade-visuals",
+    "https://veo.framer.ai/blog/the-future-of-mobile-creativity-how-ai-is-redefining-design",
+    "https://veo.framer.ai/blog/the-revival-of-retro-80s-90s-vibes-with-modern-ai-tools",
+    "https://veo.framer.ai/blog/why-ai-generated-content-isn-t-just-a-trend-it-s-a-movement",
+    "https://veo.framer.ai/contact",
+    "https://veo.framer.ai/features",
+    "https://veo.framer.ai/gallery",
+    "https://veo.framer.ai/legal/cookie-policy",
+    "https://veo.framer.ai/legal/privacy-policy",
+    "https://veo.framer.ai/legal/refunds",
+    "https://veo.framer.ai/legal/terms-of-service",
+    "https://veo.framer.ai/pricing"
+  ],
+  "excluded": [
+    "外部模板商店、作者网站、支付、Framer 编辑器及业务后台"
+  ],
+  "key_interactions": [
+    "Framer 进场和滚动动画",
+    "浮动图片和视频",
+    "图像/视频画廊",
+    "定价切换",
+    "FAQ",
+    "图像前后对比",
+    "移动菜单",
+    "联系与订阅表单本地演示"
+  ],
+  "viewports": [
+    1280,
+    390
+  ]
+}

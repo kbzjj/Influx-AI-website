@@ -1,0 +1,19 @@
+{
+  "name": "Reels",
+  "description": "大胆字形、错落视频与滚动叠卡，探索创作者营销网站的节奏。",
+  "category": "创意营销",
+  "stack": "Webflow",
+  "sourceUrl": "https://reels-wbs.webflow.io/",
+  "entry": "index.html",
+  "cover": "qa/local-home.png",
+  "guide": "STUDY_GUIDE.md",
+  "tags": [
+    "滚动叠卡",
+    "视频卡片",
+    "GSAP",
+    "营销网站"
+  ],
+  "pageCount": 22,
+  "status": "已收录 · 本地视觉与动效预览",
+  "order": 1
+}
