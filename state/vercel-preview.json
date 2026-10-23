@@ -1,0 +1,14 @@
+{
+  "project": "influx-ai-website",
+  "projectId": "prj_X9bIIdMToLcQ1SEPJlvV6AGiZK38",
+  "teamId": "team_JO24knzqDGgcmnYUrbHQzkhP",
+  "deploymentId": "dpl_J5aLKWvs9SCrHZgQhWgdTk8coUVZ",
+  "url": "https://influx-ai-website-ff0bert1c-kb-zjj-5066s-projects.vercel.app",
+  "target": "preview",
+  "status": "READY",
+  "sourceDirectory": "versions/\u65b9\u6848\u4e8c",
+  "sourceCommit": "9027718fea6c12d3de9c4a26c82fffd9e0b7d560",
+  "includesWorkingTreeChanges": true,
+  "verified": true,
+  "shareExpiresAt": "2026-10-30T10:31:53+08:00"
+}

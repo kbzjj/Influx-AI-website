@@ -29,3 +29,13 @@ python3 -m http.server 4174 --bind 127.0.0.1 --directory .
 - `INFLUX_AI_VISUAL_REDESIGN.md` 和 `versions/方案二/README.md`：需求与历次实施记录，其中方案一的描述仅为历史记录。
 
 当前为前端本地预览，未发布或接入后端。表单内容仅保存在浏览器本地。PC 视觉优先，移动端仍待统一调整及验收。
+
+
+## Vercel 预览
+
+2026-10-23 已将当前方案二部署为 Vercel Preview（READY）：
+
+- 部署地址：<https://influx-ai-website-ff0bert1c-kb-zjj-5066s-projects.vercel.app>
+- Vercel 默认访问保护保留；本次免登录分享链接见聊天记录，有效至 2026-10-30 10:31（Asia/Shanghai）。
+- 已在线验证首页、定价、工具页面、头像图集加载，以及三个页面导航保持相同宽度。没有浏览器脚本错误或站内资源加载失败。
+- 部署源码目录为 `versions/方案二/`，该目录包含 `vercel.json` 与 `.vercelignore`。使用 Vercel CLI 执行预览部署；本地认证与环境文件已加入忽略规则。
