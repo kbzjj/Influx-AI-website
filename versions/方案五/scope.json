@@ -1,0 +1,73 @@
+{
+  "task_mode": "project",
+  "reference_level": "strong",
+  "project_root": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website",
+  "output_root": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案五",
+  "template_source": "/Users/gztd-03-02687/.agents/skills/website-replica/assets/templates/shinta",
+  "source_url": "https://shinta.framer.media/",
+  "confirmed_scope": "方案5：中文桌面端，首页包含统一联系表单、工具与价格、免费互动率计算器三页。优先复用Shinta原始视觉、素材、组件与动效；可合理精简和重组内容。",
+  "included_pages": [
+    "index.html",
+    "pricing.html",
+    "free-tools.html"
+  ],
+  "excluded": [
+    "英文",
+    "响应式专项适配",
+    "上线发布",
+    "业务后台",
+    "实际账号开通或支付",
+    "虚构案例和客户评价"
+  ],
+  "core_content": [
+    "AI驱动的达人营销Agency",
+    "四项营销服务与按项目定制报价",
+    "全球资源与官方API表述",
+    "四项自有AI与产品能力",
+    "四阶段合作流程",
+    "统一联系表单",
+    "工具状态、价格与Plus边界",
+    "免费互动率计算器",
+    "条款预览"
+  ],
+  "brand_constraints": [
+    "Influx Logo",
+    "数字DIN字体",
+    "Shinta主题色、布局、素材和动效"
+  ],
+  "content_sources": [
+    "方案四内容确认稿.md",
+    "方案四内部说明与待确认清单.md"
+  ],
+  "key_interactions": [
+    "首屏视频播放与堆叠",
+    "波浪文字",
+    "逐词进场",
+    "服务滚动叠卡与反向恢复",
+    "按钮悬停",
+    "产品截图查看",
+    "本地咨询保存",
+    "计算器",
+    "法律预览弹窗"
+  ],
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "mode": "initial top-level comparison"
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "mode": "fixed iframe desktop layout inspection; displayed at 58 percent"
+    }
+  ],
+  "storage": "项目独立实体目录；源模板只读，模板中心不登记此业务方案。",
+  "implementation": {
+    "runtime": "Original Shinta Framer/React/Motion/Lenis public compiled output",
+    "composition": "Original hero, transition, resource imagery, project-card components, service stack, quote CTA, workflow, pricing cards and footer shell; small business form and data adaptations",
+    "desktop_only": true,
+    "preview_url": "http://127.0.0.1:3005/",
+    "backend_submission": false
+  }
+}

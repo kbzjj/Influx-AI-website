@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站视觉与动效复刻"
+  short_description: "区分参考模板采集与业务项目制作，按归属保存源码和素材，复刻视觉动效并提供本地预览"
+  default_prompt: "使用 $website-replica 处理这个网站：先判断是参考模板采集、已有模板浏览还是业务项目制作，再确定范围与输出位置。"

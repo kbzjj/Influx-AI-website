@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-27",
+  "page": "pricing.html",
+  "reference_level": "strong",
+  "reference": "Reels homepage pricing and contact",
+  "verified": [
+    "Chinese and English rendered layout",
+    "default marketing services category",
+    "desktop and narrow category switching",
+    "full page scroll and footer",
+    "1440 desktop iframe: two columns and three plan cards",
+    "390 mobile iframe: single-column form and plans",
+    "native Reels load reveal completion"
+  ],
+  "limitations": [
+    "iframe responsive checks are not physical touch-device tests",
+    "no new real form submission performed"
+  ],
+  "unchanged_files": [
+    "index.html",
+    "free-tools.html",
+    "influx.js",
+    "influx.css",
+    "runtime-bridge.js"
+  ]
+}

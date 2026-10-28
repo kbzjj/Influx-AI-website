@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "language": "zh",
+  "service_count": 4,
+  "product_count": 4,
+  "iframe_count": 0,
+  "english_values_unchanged": 176,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "native_dependencies": 32,
+  "native_import_missing": 0,
+  "final_console_errors": 0,
+  "screenshots": [
+    "module-services-desktop.png",
+    "module-services-mobile.png",
+    "module-capabilities-desktop.png",
+    "module-capabilities-mobile.png"
+  ]
+}

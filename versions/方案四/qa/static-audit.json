@@ -1,0 +1,27 @@
+{
+  "local_files_checked": 99,
+  "manifest_assets_checked": 256,
+  "missing": [],
+  "hash_mismatches": [],
+  "external": [
+    {
+      "source": "free-tools.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "index.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    },
+    {
+      "source": "pricing.html",
+      "kind": "navigation",
+      "url": "https://webestica.com/"
+    }
+  ],
+  "runtime_routes": [],
+  "download_failures": [],
+  "runtime_review": [],
+  "note": "Static checks only. External embeds, JS modules, API calls and visual/motion fidelity require browser verification."
+}

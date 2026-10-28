@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "url": "https://influx-ai-scheme-four.vercel.app/",
+  "project": "influx-ai-scheme-four",
+  "teamId": "team_JO24knzqDGgcmnYUrbHQzkhP",
+  "projectId": "prj_La0WDEHmsfJtzlMveLWU4LhQbh06",
+  "deploymentId": "dpl_3V9zV1RUjq9px6qKQWaunA5ecMTS",
+  "status": "READY",
+  "target": "production",
+  "deploymentProtection": [],
+  "source": "versions/方案四",
+  "uploadDirectory": "work/deployments/scheme-four-public"
+}

@@ -1,0 +1,165 @@
+{
+  "source_url": "https://reels-wbs.webflow.io/",
+  "source_snapshots": [
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四/_source/index.html.txt",
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四/_source/contact-index.html.txt"
+  ],
+  "content_sources": [
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/方案四内容确认稿.md",
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/方案四内部说明与待确认清单.md"
+  ],
+  "confirmed_scope": "User requested the complete fourth Influx website, home + tools/pricing + calculator, full scroll and interactions in Chinese and English. Reuse Reels source layout/motion; scheme-three logo, fonts, purple/blue palette and top header are retained. Content may be shortened to fit the reference while preserving core meaning.",
+  "included_pages": [
+    "index.html",
+    "pricing.html",
+    "free-tools.html"
+  ],
+  "excluded": [
+    "production publication",
+    "backend submission",
+    "payment",
+    "real product login until URL supplied",
+    "fictional cases/testimonials"
+  ],
+  "key_interactions": [
+    "original hero motion and videos",
+    "original service stack timelines",
+    "original ticker loops",
+    "original case slider adapted to four product capabilities",
+    "original workflow movement",
+    "button hover",
+    "language selection",
+    "single four-field local enquiry",
+    "calculator",
+    "full screenshots",
+    "legal preview dialogs"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "canonical_output": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四",
+  "project_entry": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四",
+  "approval_evidence": "User explicitly requested implementation after finalizing the two documents, and confirmed scheme-three font/color and navigation style.",
+  "task_mode": "project",
+  "output_root": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四",
+  "project_root": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website",
+  "reference_level": "strong",
+  "template_source": [
+    "Reels local source snapshots",
+    "Scheme five Shinta native first title-and-floating-card transition (read-only local source)"
+  ],
+  "core_content": [
+    "Agency services",
+    "creator resources",
+    "AI and product capabilities",
+    "project quotes and common contact form",
+    "tool subscriptions and calculator"
+  ],
+  "brand_constraints": [
+    "scheme-three logo, typography, purple-blue palette and navigation"
+  ],
+  "latest_content_revision": {
+    "date": "2026-10-27",
+    "content_draft": "1.6",
+    "internal_notes": "1.5",
+    "language": "zh",
+    "english": "Existing copy and presentation retained",
+    "source": "content-zh.json"
+  },
+  "module_migration": {
+    "date": "2026-10-27",
+    "language": "zh",
+    "services": "Native Framer title/background variants and scroll-transform question layout with the same heading and all five marketing-question cards as scheme five",
+    "capabilities": "Original native Reels service stack moved to four product capabilities; screenshots and zoom retained",
+    "english": "Original services stack and capability carousel retained",
+    "reference_runtime": "Project-owned native Framer/Motion modules; original smooth-scroll component and page metadata removed; one existing Reels Lenis instance"
+  },
+  "storage": "Project-owned real directory; no skill template registration or symbolic link.",
+  "english_typeface": {
+    "family": "Leon Sans",
+    "source": "User supplied Leon Sans 2.0/LeonSans[wght].ttf",
+    "weights": "100-900 variable",
+    "asset": "assets/influx/leon-sans-variable.ttf",
+    "license": "assets/influx/leon-sans-OFL.txt",
+    "language": "en only; Chinese typeface unchanged; Webflow icon font preserved"
+  },
+  "capability_footer_refinement": {
+    "date": "2026-10-27",
+    "subscription_note": "Removed from Chinese capabilities",
+    "price_link": "Outside the sticky-card containing block; 96px desktop margin and 64px mobile margin",
+    "resource_authorization_marquee": "Removed; platform logos remain in resource metrics"
+  },
+  "latest_visual_refinements": {
+    "date": "2026-10-27",
+    "transition_light_background": "Uses the same --color--gray-6 (#f7f7f5) as the cover; dark native transition retained",
+    "hero_platforms": "One static set of Instagram, X, YouTube and TikTok; no repeated marquee groups or fade masks",
+    "resource_metric_units": "Small Chinese unit after 4 and 3, removed from right-side labels",
+    "resource_logos": {
+      "social_platforms": [
+        "TikTok",
+        "YouTube",
+        "Instagram",
+        "X"
+      ],
+      "official_API_platforms": [
+        "TikTok",
+        "YouTube",
+        "Instagram"
+      ]
+    }
+  },
+  "content_sha256": {
+    "方案四内容确认稿.md": "1391c939b768a80e411648dde3461f944ba04be38bac52c3109f3a97982b17ac",
+    "方案四内部说明与待确认清单.md": "d9f9a372bc93d148cba65ae21da16af66cebd4f6a574cdc0aff5437e9355552c"
+  },
+  "resource_media_review": "Original Reels heights restored independently of metrics: desktop 390px, tablet 300px, phone 250px; second image offset by 80px (original 50px padding plus 30px margin).",
+  "workflow_image_review": [
+    "Remove visible illustration and product demo notes",
+    "Use four original Reels photos with a consistent frame",
+    "Remove workflow CTA before the contact section"
+  ],
+  "latest_adjustments": [
+    "Restore template creator avatars and handles; remove hero demonstration note",
+    "Center services label",
+    "Merge mission imagery and creator network metrics into one resources section",
+    "Place slider controls on the card center line",
+    "Use a plain right arrow on contact submit"
+  ],
+  "pricing_redesign": {
+    "date": "2026-10-27",
+    "task_mode": "project",
+    "reference_level": "strong",
+    "template_source": [
+      "Reels homepage pricing section",
+      "Reels contact page"
+    ],
+    "included_pages": [
+      "pricing.html"
+    ],
+    "excluded": [
+      "index.html",
+      "free-tools.html",
+      "other website schemes"
+    ],
+    "preserved": [
+      "existing navigation",
+      "marketing services default tab",
+      "two categories",
+      "four-field local enquiry",
+      "tool plans and prices",
+      "bilingual support"
+    ],
+    "source_snapshots": [
+      "_source/reels-pricing-reference.html.txt",
+      "_source/reels-contact-reference.html.txt"
+    ],
+    "implementation": "Reels native toggle, form, plan cards and button runtime; centred single-column price label, heading, tabs and service form. Removed service quotation label, title and description at user request."
+  }
+}

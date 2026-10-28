@@ -1,0 +1,11 @@
+{
+  "local_files_checked": 50,
+  "manifest_assets_checked": 375,
+  "missing": [],
+  "hash_mismatches": [],
+  "external": [],
+  "runtime_routes": [],
+  "download_failures": {},
+  "runtime_review": [],
+  "note": "Static checks only. External embeds, JS modules, API calls and visual/motion fidelity require browser verification."
+}

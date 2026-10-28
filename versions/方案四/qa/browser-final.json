@@ -1,0 +1,54 @@
+{
+  "observation": {
+    "contactFields": [
+      {
+        "name": "name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "required": true
+      },
+      {
+        "name": "company",
+        "required": false
+      },
+      {
+        "name": "message",
+        "required": true
+      }
+    ],
+    "headingFont": "\"Inter Display\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+    "height": 1000,
+    "horizontalOverflow": false,
+    "language": "zh-CN",
+    "sections": [
+      "home",
+      "managed",
+      "project-quote",
+      "resources",
+      "network",
+      "capabilities",
+      "how-it-works",
+      "contact"
+    ],
+    "title": "Influx AI — AI 驱动的达人营销 Agency",
+    "url": "http://localhost:3000/versions/%E6%96%B9%E6%A1%88%E5%9B%9B/",
+    "videos": [
+      {
+        "paused": true,
+        "readyState": 4
+      },
+      {
+        "paused": true,
+        "readyState": 4
+      },
+      {
+        "paused": true,
+        "readyState": 4
+      }
+    ],
+    "width": 1440
+  },
+  "scriptErrors": []
+}

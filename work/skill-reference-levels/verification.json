@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-27",
+  "skill_format": "valid",
+  "ui_metadata": "valid",
+  "reference_levels": [
+    "strong",
+    "medium",
+    "weak"
+  ],
+  "selection_required_before_new_business_design": true,
+  "template_is_per_request": true,
+  "project_storage_rules_preserved": true,
+  "reference_templates_unchanged": true
+}

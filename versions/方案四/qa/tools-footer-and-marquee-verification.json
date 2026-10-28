@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "desktop": {
+    "buttonTop": -146.1953125,
+    "cardBottom": -300.05712890625,
+    "footerOutsideStickyContainer": true,
+    "gap": 153.86181640625,
+    "notes": 0,
+    "resourceMarquees": 0
+  },
+  "mobile": {
+    "bodyWidth": 375,
+    "buttonTop": 798.859375,
+    "cardBottom": 734.859375,
+    "gap": 64,
+    "scrollWidth": 375
+  },
+  "resourcesMarqueeCount": 0,
+  "capabilitiesNoteCount": 0
+}

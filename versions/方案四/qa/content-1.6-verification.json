@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "content_draft": "1.6",
+  "chinese_overrides": 95,
+  "existing_english_values_preserved": 176,
+  "input_documents_unchanged": true,
+  "scheme_three_unchanged": true,
+  "generator_in_sync": true,
+  "project_owned_directory": true,
+  "http": {
+    "index.html": 200,
+    "pricing.html": 200,
+    "free-tools.html": 200
+  },
+  "static_audit": {
+    "missing": 0,
+    "changed_assets": 0
+  },
+  "browser_evidence": "content-1.6-browser.json"
+}

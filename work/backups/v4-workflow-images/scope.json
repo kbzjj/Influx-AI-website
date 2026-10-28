@@ -1,0 +1,58 @@
+{
+  "source_url": "https://reels-wbs.webflow.io/",
+  "source_template": "/Users/gztd-03-02687/.agents/skills/website-replica/assets/templates/reels",
+  "content_sources": [
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/方案四内容确认稿.md",
+    "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/方案四内部说明与待确认清单.md"
+  ],
+  "confirmed_scope": "User requested the complete fourth Influx website, home + tools/pricing + calculator, full scroll and interactions in Chinese and English. Reuse Reels source layout/motion; scheme-three logo, fonts, purple/blue palette and top header are retained. Content may be shortened to fit the reference while preserving core meaning.",
+  "included_pages": [
+    "index.html",
+    "pricing.html",
+    "free-tools.html"
+  ],
+  "excluded": [
+    "production publication",
+    "backend submission",
+    "payment",
+    "real product login until URL supplied",
+    "fictional cases/testimonials"
+  ],
+  "key_interactions": [
+    "original hero motion and videos",
+    "original service stack timelines",
+    "original ticker loops",
+    "original case slider adapted to four product capabilities",
+    "original workflow movement",
+    "button hover",
+    "language selection",
+    "single four-field local enquiry",
+    "calculator",
+    "full screenshots",
+    "legal preview dialogs"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "canonical_output": "/Users/gztd-03-02687/.agents/skills/website-replica/assets/templates/influx-ai-v4",
+  "project_entry": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四",
+  "approval_evidence": "User explicitly requested implementation after finalizing the two documents, and confirmed scheme-three font/color and navigation style.",
+  "content_sha256": {
+    "方案四内容确认稿.md": "143ca7e00a2984247a41c634bbdc69af6d16d82583ece0055679e8d6424562b2",
+    "方案四内部说明与待确认清单.md": "2df6f2ec9b2cdb7ee6864d104b0a49a0aadf818280a34242f866de8fd1a3416c"
+  },
+  "latest_adjustments": [
+    "Restore template creator avatars and handles; remove hero demonstration note",
+    "Center services label",
+    "Merge mission imagery and creator network metrics into one resources section",
+    "Place slider controls on the card center line",
+    "Use a plain right arrow on contact submit"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "url": "https://influx-ai-scheme-four.vercel.app/",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "pricing.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "free-tools.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "influx.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "pricing-reels.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "influx.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "copy.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "service-transition.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "assets/influx/leon-sans-variable.ttf",
+      "status": 200,
+      "content_type": "font/ttf",
+      "matches_local": true
+    },
+    {
+      "path": "assets/influx/logo.png",
+      "status": 200,
+      "content_type": "image/png",
+      "matches_local": true
+    },
+    {
+      "path": "runtime/service-transition/react.BNsJAPhr.mjs",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "runtime/service-transition/E7Gy02fTtRRJl6hMB7qcE2rxgwCUbKrxzEbR3iwtkZQ.B9xiGkhW.mjs",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "matches_local": true
+    },
+    {
+      "path": "README.md",
+      "status": 404
+    },
+    {
+      "path": "scope.json",
+      "status": 404
+    },
+    {
+      "path": "_source/index.html.txt",
+      "status": 404
+    },
+    {
+      "path": "versions/%E6%96%B9%E6%A1%88%E4%BA%8C/",
+      "status": 404
+    }
+  ]
+}

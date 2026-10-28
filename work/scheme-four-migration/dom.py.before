@@ -1,0 +1,57 @@
+from html.parser import HTMLParser
+from html import escape
+from copy import deepcopy
+VOID=set('area base br col embed hr img input link meta param source track wbr'.split())
+class Node:
+ def __init__(self,tag='',attrs=None,children=None): self.tag=tag; self.attrs=dict(attrs or []); self.children=children or []
+ def walk(self):
+  yield self
+  for c in self.children:
+   if isinstance(c,Node): yield from c.walk()
+ def all(self,tag=None,cls=None,attr=None):
+  return [n for n in self.walk() if (tag is None or n.tag==tag) and (cls is None or cls in n.attrs.get('class','').split()) and (attr is None or all(n.attrs.get(k)==v for k,v in attr.items()))]
+ def one(self,**kw): return self.all(**kw)[0]
+ def html(self):
+  if not self.tag:return ''.join(c.html() if isinstance(c,Node) else c for c in self.children)
+  a=''.join(' '+k+('="'+escape(str(v),quote=True)+'"' if v is not None else '') for k,v in self.attrs.items())
+  return '<'+self.tag+a+'>'+('' if self.tag in VOID else ''.join(c.html() if isinstance(c,Node) else c for c in self.children)+'</'+self.tag+'>')
+ def text(self):return ''.join(c.text() if isinstance(c,Node) else c for c in self.children if not isinstance(c,Node) or c.tag not in ('script','style'))
+ def set(self,content):self.children=parse(content).children;return self
+ def remove(self,target):
+  for n in self.walk():
+   if target in n.children:n.children.remove(target);return
+ def clone(self):return deepcopy(self)
+class Parser(HTMLParser):
+ def __init__(self):super().__init__(convert_charrefs=False);self.root=Node();self.stack=[self.root]
+ def handle_starttag(self,t,a):
+  n=Node(t,a);self.stack[-1].children.append(n)
+  if t not in VOID:self.stack.append(n)
+ def handle_startendtag(self,t,a):self.handle_starttag(t,a);self.handle_endtag(t) if t not in VOID else None
+ def handle_endtag(self,t):
+  for i in range(len(self.stack)-1,0,-1):
+   if self.stack[i].tag==t:self.stack=self.stack[:i];break
+ def handle_data(self,d):self.stack[-1].children.append(d)
+ def handle_entityref(self,n):self.handle_data('&'+n+';')
+ def handle_charref(self,n):self.handle_data('&#'+n+';')
+ def handle_comment(self,d):self.handle_data('<!--'+d+'-->')
+ def handle_decl(self,d):self.handle_data('<!'+d+'>')
+def parse(s):
+ p=Parser();p.feed(s);return p.root
+if __name__=='__main__':
+ from pathlib import Path
+ root=Path('/Users/gztd-03-02687/.agents/skills/website-replica/assets/templates/reels')
+ doc=parse((root/'index.html').read_text())
+ sections=doc.all(tag='section')
+ for i in [0,2,3,4,6,7,9]:
+  s=sections[i]
+  print('\nSECTION',i)
+  def show(n,depth=0):
+   if depth>4:return
+   for c in n.children:
+    if isinstance(c,Node):
+     print('  '*depth,c.tag,c.attrs.get('class',''),{k:v for k,v in c.attrs.items() if k in ('data-w-id','id','data-w-tab')},c.text()[:65].replace('\n',' '))
+     show(c,depth+1)
+  show(s)
+ contact=parse((root/'contact/index.html').read_text())
+ print('\nCONTACT SECTIONS')
+ for s in contact.all(tag='section'):show(s)

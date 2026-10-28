@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27",
+  "real_project_directory": true,
+  "skill_residual_matches": [],
+  "original_skill_files_unchanged": true,
+  "runtime_and_assets_checked": 264,
+  "runtime_and_assets_identical": true,
+  "old_center_routes": {
+    "/open/influx-ai-v4": 404,
+    "/learn/influx-ai-v4": 404,
+    "/templates/influx-ai-v4/template.json": 404
+  },
+  "project_directory": "/Users/gztd-03-02687/周嘉骏的项目/Influx-AI-website/versions/方案四",
+  "build_sources": "Local _source snapshots",
+  "template_registration_active": false,
+  "browser": "Homepage renders without JS errors; tools navigation succeeds; template center has 4 original entries and zero Influx search results."
+}

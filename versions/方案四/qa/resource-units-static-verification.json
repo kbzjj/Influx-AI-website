@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-27",
+  "backgroundAndStaticPlatforms": {
+    "bodyBackground": "rgb(247, 247, 245)",
+    "masks": 0,
+    "platformMarquees": 0,
+    "platformTransforms": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "platforms": [
+      "Instagram",
+      "X",
+      "Youtube",
+      "Tiktok"
+    ],
+    "transitionBackground": "rgb(247, 247, 245)"
+  },
+  "resourceMetrics": [
+    {
+      "logos": [],
+      "text": "120+国家及地区",
+      "unit": null
+    },
+    {
+      "logos": [
+        {
+          "loaded": true,
+          "name": "TikTok"
+        },
+        {
+          "loaded": true,
+          "name": "YouTube"
+        },
+        {
+          "loaded": true,
+          "name": "Instagram"
+        },
+        {
+          "loaded": true,
+          "name": "X"
+        }
+      ],
+      "text": "4个主流社交平台",
+      "unit": "18px"
+    },
+    {
+      "logos": [
+        {
+          "loaded": true,
+          "name": "TikTok"
+        },
+        {
+          "loaded": true,
+          "name": "YouTube"
+        },
+        {
+          "loaded": true,
+          "name": "Instagram"
+        }
+      ],
+      "text": "3个官方 API 授权平台",
+      "unit": "18px"
+    }
+  ],
+  "mobile": {
+    "noHorizontalOverflow": true,
+    "unitFontSize": 16,
+    "logosFit": true
+  }
+}

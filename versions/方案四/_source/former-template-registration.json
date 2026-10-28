@@ -1,0 +1,20 @@
+{
+  "name": "Influx AI · 方案四",
+  "description": "Reels 原生视频、服务叠卡与四步流程，配合 Influx 品牌和 Agency 内容；含工具价格与计算器。",
+  "category": "创意营销",
+  "stack": "Webflow · GSAP · 本地静态前端",
+  "sourceUrl": "https://reels-wbs.webflow.io/",
+  "entry": "index.html",
+  "cover": "qa/local-home-desktop-zh.png",
+  "guide": "STUDY_GUIDE.md",
+  "tags": [
+    "Influx",
+    "方案四",
+    "Reels",
+    "Agency",
+    "中英文"
+  ],
+  "pageCount": 3,
+  "status": "本地适配预览 · 主要交互已验证",
+  "order": 100
+}

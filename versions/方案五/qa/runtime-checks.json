@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "index.html": {
+      "status": 200,
+      "type": "text/html"
+    },
+    "pricing.html": {
+      "status": 200,
+      "type": "text/html"
+    },
+    "free-tools.html": {
+      "status": 200,
+      "type": "text/html"
+    }
+  },
+  "missing_esm": [],
+  "video_range": {
+    "status": 206,
+    "type": "video/mp4",
+    "bytes_match": true
+  },
+  "cms_range": {
+    "status": 200,
+    "bytes_match": true
+  }
+}

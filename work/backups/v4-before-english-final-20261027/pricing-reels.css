@@ -1,0 +1,118 @@
+/* Reels pricing and contact layouts. Loaded by pricing.html only. */
+body[data-page="pricing.html"] .pricing-shell{padding-top:170px}
+.reels-pricing-page .pricing-category-heading>.section-title{margin-bottom:58px}
+.reels-pricing-page .pricing-category-heading .grid-pricing{grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:40px}
+.reels-pricing-page .pricing-section-title{max-width:740px;gap:24px}
+.reels-pricing-page .pricing-section-title h1{font-size:clamp(48px,5.2vw,80px);line-height:1.08;letter-spacing:-.055em;text-wrap:initial;margin:0}
+.reels-pricing-page .pricing-section-title h1 em{display:block;font-style:normal}
+.reels-pricing-page .pricing-categories{align-self:end;margin:0 0 5px;padding:6px 8px;gap:0;border:0;background:var(--color--gray-4);box-shadow:none}
+.reels-pricing-page .pricing-categories .toggle{width:158px;min-height:54px;padding:14px 22px;border:0;border-radius:999px;background:transparent;color:#171717;font-size:16px;line-height:1.5;font-weight:500;white-space:nowrap;box-shadow:none}
+.reels-pricing-page .pricing-categories .toggle[aria-selected=true]{background:#fff;color:#171717;box-shadow:none}
+.reels-pricing-page .pricing-categories .toggle:hover{color:#6360ce}
+.reels-pricing-page .service-pricing-panel{padding-bottom:0}
+.reels-pricing-page .grid-hero-contact{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:start}
+.reels-pricing-page .hero-contact-left{overflow:visible}
+.reels-pricing-page .hero-contact-title{display:block}
+.reels-pricing-page .hero-contact-title h2{max-width:none;margin:30px 0 32px;font-size:clamp(48px,5.6vw,86px);line-height:1.12;letter-spacing:-.055em;font-weight:700;text-wrap:initial}
+.reels-pricing-page .contact-highlite-title{display:inline-block;background:#e8e5ff;color:#171717;border-radius:28px 8px;padding:7px 19px 14px;margin-top:12px;font:inherit;line-height:1.1}
+.reels-pricing-page .contact-description{max-width:430px;margin:0;font-size:18px;line-height:1.75;color:#666}
+.reels-pricing-page .hero-contact-right{border-radius:32px}
+.reels-pricing-page .contact-right-title{font-size:28px;line-height:1.3;letter-spacing:-.035em;font-weight:600}
+.reels-pricing-page .contact-form{padding:36px;border-radius:32px}
+.reels-pricing-page .contact-inner-form{gap:24px}
+.reels-pricing-page .contact-inner-form .label{margin:0;gap:10px}
+.reels-pricing-page .field-title{font-size:15px;line-height:1.5;margin:0;font-weight:500}
+.reels-pricing-page .contact-input{height:54px;font-size:16px;padding:14px 18px}
+.reels-pricing-page .contact-inner-form textarea{height:132px;min-height:132px}
+.reels-pricing-page .contact-submit{margin-top:8px;min-height:58px}
+.reels-pricing-page .form-status:empty{display:none}
+.reels-pricing-page .pricing-page{padding-bottom:0}
+.reels-pricing-page .pricing-content{margin-bottom:0}
+.reels-pricing-page .pricing-card{display:flex;flex-direction:column;border-radius:32px}
+.reels-pricing-page .pricing-card-top{padding:24px 30px;min-height:82px;align-items:center}
+.reels-pricing-page .pricing-card-title,.reels-pricing-page .pricing-card:last-child .pricing-card-title{font-size:26px;line-height:1.25;letter-spacing:-.04em}
+.reels-pricing-page .pricing-card-title._02{padding-bottom:0}
+.reels-pricing-page .pricing-card-bottom{flex:1;justify-content:space-between;padding:30px;gap:28px;border-radius:32px}
+.reels-pricing-page .pricing-card-info{gap:30px;padding-bottom:0}
+.reels-pricing-page .pricing-pre-title{font-size:15px;line-height:1.6;min-height:24px}
+.reels-pricing-page .pricing-amount,.reels-pricing-page .pricing-card:last-child .pricing-amount{margin:0;gap:4px;flex-wrap:wrap}
+.reels-pricing-page .pricing-amount h4{font-size:clamp(58px,5.7vw,86px);line-height:1;letter-spacing:-.055em}
+.reels-pricing-page .pricing-amount-text{font-size:13px}
+.reels-pricing-page .pricing-card .pricing-list{min-height:160px;gap:16px}
+.reels-pricing-page .pricing-card .list-title{font-size:15px;line-height:1.5}
+.reels-pricing-page .pricing-card .button-primary{font-size:15px;padding:19px 14px;line-height:1.3}
+.reels-pricing-page .plan-boundary{margin-top:32px;padding:26px 0;border:0;border-top:1px solid #dcdcd8;border-radius:0;font-size:15px}
+.reels-pricing-page .plan-boundary strong{font-size:18px;font-weight:600}
+.reels-pricing-page .pricing-disclosure{margin-top:6px}
+.reels-pricing-page .calculator-link{display:inline-block;margin-top:16px;color:#171717;border-bottom:1px solid #aaa;padding-bottom:4px}
+body[data-page="pricing.html"] .footer{margin-top:110px}
+html[lang="en"] .reels-pricing-page .pricing-section-title h1{font-size:clamp(44px,4.8vw,74px);letter-spacing:-.06em}
+html[lang="en"] .reels-pricing-page .pricing-categories .toggle{width:auto;min-width:160px}
+html[lang="en"] .reels-pricing-page .hero-contact-title h2{font-size:clamp(44px,4.8vw,74px)}
+@media(max-width:991px){
+ body[data-page="pricing.html"] .pricing-shell{padding-top:140px}
+ .reels-pricing-page .pricing-category-heading .grid-pricing{grid-template-columns:1fr;gap:28px}
+ .reels-pricing-page .pricing-categories{justify-self:start;align-self:start;margin:0}
+ .reels-pricing-page .pricing-category-heading>.section-title{margin-bottom:48px}
+ .reels-pricing-page .grid-hero-contact{gap:32px}
+ .reels-pricing-page .contact-form{padding:28px}
+ .reels-pricing-page .pricing-card-top,.reels-pricing-page .pricing-card-bottom{padding:24px}
+ .reels-pricing-page .pricing-card-title,.reels-pricing-page .pricing-card:last-child .pricing-card-title{font-size:23px}
+ .reels-pricing-page .pricing-card .list-title{font-size:14px}
+}
+@media(max-width:767px){
+ .reels-pricing-page .grid-hero-contact{grid-template-columns:1fr;gap:40px}
+ .reels-pricing-page .hero-contact-title h2{font-size:64px;margin:24px 0}
+ .reels-pricing-page .contact-description{max-width:440px;font-size:16px}
+ .reels-pricing-page .grid-pricing-item{grid-template-columns:1fr;gap:24px}
+ .reels-pricing-page .pricing-card .pricing-list{min-height:0}
+ .reels-pricing-page .pricing-card-info{gap:24px}
+ .reels-pricing-page .pricing-amount h4{font-size:76px}
+}
+@media(max-width:479px){
+ body[data-page="pricing.html"] .pricing-shell{padding-top:116px}
+ .reels-pricing-page .pricing-section-title{gap:18px}
+ .reels-pricing-page .pricing-section-title h1{font-size:42px;letter-spacing:-.05em}
+ .reels-pricing-page .pricing-category-heading .grid-pricing{gap:24px}
+ .reels-pricing-page .pricing-categories{width:100%;padding:5px;display:flex}
+ .reels-pricing-page .pricing-categories .toggle{width:50%;min-height:48px;font-size:15px;padding:12px 10px}
+ .reels-pricing-page .pricing-category-heading>.section-title{margin-bottom:40px}
+ .reels-pricing-page .hero-contact-title h2{font-size:51px}
+ .reels-pricing-page .contact-highlite-title{border-radius:20px 6px;padding:7px 14px 10px;margin-top:8px}
+ .reels-pricing-page .hero-contact-right,.reels-pricing-page .contact-form{border-radius:24px}
+ .reels-pricing-page .contact-right-title{font-size:24px}
+ .reels-pricing-page .contact-form{padding:24px 20px}
+ .reels-pricing-page .contact-inner-form{gap:22px}
+ .reels-pricing-page .pricing-card{border-radius:24px}
+ .reels-pricing-page .pricing-card-bottom{border-radius:24px}
+ body[data-page="pricing.html"] .footer{margin-top:72px}
+ html[lang="en"] .reels-pricing-page .pricing-categories .toggle{min-width:0;width:50%;font-size:13px}
+ html[lang="en"] .reels-pricing-page .hero-contact-title h2{font-size:44px}
+}
+.reels-pricing-page .pricing-section-title>.pre-title{align-self:flex-start;width:fit-content}
+
+@media(prefers-reduced-motion:reduce){.reels-pricing-page [data="show"]{opacity:1!important;transform:none!important}}
+
+/* Approved refinement: one centred column, with no service quotation copy. */
+body[data-page="pricing.html"] .pricing-shell{padding-top:140px}
+.reels-pricing-page .pricing-category-heading .grid-pricing{grid-template-columns:minmax(0,1fr);justify-items:center;gap:32px;text-align:center}
+.reels-pricing-page .pricing-section-title{width:100%;max-width:860px;align-items:center;gap:20px}
+.reels-pricing-page .pricing-section-title>.pre-title{align-self:center}
+.reels-pricing-page .pricing-categories{justify-self:center;align-self:center;margin:0}
+.reels-pricing-page .pricing-category-heading>.section-title{margin-bottom:40px}
+.reels-pricing-page .service-pricing-panel .container-medium{max-width:688px}
+.reels-pricing-page .service-pricing-panel .grid-hero-contact{display:block}
+.reels-pricing-page .service-pricing-panel .hero-contact-right{width:100%;max-width:640px;margin-inline:auto}
+@media(max-width:991px){body[data-page="pricing.html"] .pricing-shell{padding-top:130px}}
+@media(max-width:479px){
+ body[data-page="pricing.html"] .pricing-shell{padding-top:112px}
+ .reels-pricing-page .pricing-category-heading .grid-pricing{gap:26px}
+ .reels-pricing-page .pricing-section-title{gap:18px}
+ .reels-pricing-page .pricing-categories{max-width:340px}
+ .reels-pricing-page .pricing-category-heading>.section-title{margin-bottom:32px}
+}
+/* Match the homepage enquiry and calculator submit buttons. */
+.reels-pricing-page .contact-submit{color:#fff;background:#171717;border-color:#171717;width:100%;justify-content:center;gap:24px;padding:18px 28px}
+.reels-pricing-page .contact-submit:hover{color:#fff;background:#000;border-color:#000}
+.reels-pricing-page .contact-submit :is(.button-text,.button-hover-text,.button-text *,.button-hover-text *){color:inherit!important}
+@media(max-width:600px){.reels-pricing-page .contact-submit{padding:17px 24px}}

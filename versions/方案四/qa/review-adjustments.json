@@ -1,0 +1,25 @@
+{
+  "hero_avatar_names": [
+    "mila.creates",
+    "nikoflips",
+    "theolund.co"
+  ],
+  "hero_reference_note_removed": true,
+  "separate_network_removed": true,
+  "resources_metric_cards": 1,
+  "submit_left_icons": 0,
+  "scheme_three_unchanged": true,
+  "content_docs_unchanged": true,
+  "generator_in_sync": true,
+  "screenshots": [
+    "review-resources-mobile.png",
+    "review-hero-cards-desktop.png",
+    "review-contact-mobile.png",
+    "review-services-desktop.png",
+    "review-resources-desktop.png",
+    "review-capabilities-mobile.png",
+    "review-contact-desktop.png",
+    "review-capabilities-en.png",
+    "review-capabilities-desktop.png"
+  ]
+}

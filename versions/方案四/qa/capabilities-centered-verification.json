@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "desktop": [
+    {
+      "buttons": 0,
+      "centerDelta": 0,
+      "imageWidth": 818.5479736328125,
+      "labels": 0,
+      "title": "AI 达人搜索"
+    },
+    {
+      "buttons": 0,
+      "centerDelta": 0,
+      "imageWidth": 860,
+      "labels": 0,
+      "title": "达人搜索与分析"
+    },
+    {
+      "buttons": 0,
+      "centerDelta": 0,
+      "imageWidth": 860,
+      "labels": 0,
+      "title": "营销活动管理"
+    },
+    {
+      "buttons": 0,
+      "centerDelta": 0,
+      "imageWidth": 860,
+      "labels": 0,
+      "title": "品牌洞察"
+    }
+  ],
+  "removedLabelsAndButtons": true,
+  "sourceImageZoomRetained": true
+}
